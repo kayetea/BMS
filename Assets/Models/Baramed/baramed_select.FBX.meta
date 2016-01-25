@@ -1,0 +1,1960 @@
+fileFormatVersion: 2
+guid: 240795e96ab0e0e44bd799590aee3c34
+timeCreated: 1451420934
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: 'Baramed1_iam '
+    100002: Baramed1_iam  1
+    100004: Baramed1_iam  10
+    100006: Baramed1_iam  11
+    100008: Baramed1_iam  12
+    100010: Baramed1_iam  13
+    100012: Baramed1_iam  14
+    100014: Baramed1_iam  15
+    100016: Baramed1_iam  16
+    100018: Baramed1_iam  17
+    100020: Baramed1_iam  18
+    100022: Baramed1_iam  19
+    100024: Baramed1_iam  2
+    100026: Baramed1_iam  20
+    100028: Baramed1_iam  21
+    100030: Baramed1_iam  22
+    100032: Baramed1_iam  23
+    100034: Baramed1_iam  24
+    100036: Baramed1_iam  25
+    100038: Baramed1_iam  26
+    100040: Baramed1_iam  27
+    100042: Baramed1_iam  28
+    100044: Baramed1_iam  29
+    100046: Baramed1_iam  3
+    100048: Baramed1_iam  30
+    100050: Baramed1_iam  31
+    100052: Baramed1_iam  32
+    100054: Baramed1_iam  33
+    100056: Baramed1_iam  34
+    100058: Baramed1_iam  35
+    100060: Baramed1_iam  36
+    100062: Baramed1_iam  37
+    100064: Baramed1_iam  38
+    100066: Baramed1_iam  39
+    100068: Baramed1_iam  4
+    100070: Baramed1_iam  5
+    100072: Baramed1_iam  6
+    100074: Baramed1_iam  7
+    100076: Baramed1_iam  8
+    100078: Baramed1_iam  9
+    100080: Baramed_Assem_Shroud_WideBase_iam.apf:-L-18
+    100082: Baramed_Assem_Shroud_WideBase_iam.apf:-L-19
+    100084: Baramed_Assem_Shroud_WideBase_iam.apf:-L-20
+    100086: Baramed_Assem_Shroud_WideBase_iam.apf:-L-21
+    100088: Baramed_Assem_Shroud_WideBase_iam.apf:-L-22
+    100090: Baramed_Assem_Shroud_WideBase_iam.apf:29-mesh
+    100092: Baramed_Assem_Shroud_WideBase_iam.apf:Base2:1_BODY-mesh
+    100094: //RootNode
+    100096: bars
+    100098: bolt1_ipt.apf:bolt1_ipt.apf-mesh[12]
+    100100: bolt1_ipt.apf:bolt1_ipt.apf-mesh[13]
+    100102: bolt1_ipt.apf:bolt1_ipt.apf-mesh[14]
+    100104: bolt1_ipt.apf:bolt1_ipt.apf-mesh[15]
+    100106: boltz
+    100108: bottom bar
+    100110: Box001
+    100112: Box002
+    100114: Box003
+    100116: Box004
+    100118: ChamferBox01
+    100120: ChamferCyl01
+    100122: ChamferCyl02
+    100124: ChamferCyl03
+    100126: ChamferCyl04
+    100128: 'Comm Panel_ipt '
+    100130: Comm Panel_ipt  1
+    100132: Comm Panel_ipt  10
+    100134: Comm Panel_ipt  11
+    100136: Comm Panel_ipt  12
+    100138: Comm Panel_ipt  13
+    100140: Comm Panel_ipt  14
+    100142: Comm Panel_ipt  15
+    100144: Comm Panel_ipt  16
+    100146: Comm Panel_ipt  17
+    100148: Comm Panel_ipt  18
+    100150: Comm Panel_ipt  19
+    100152: Comm Panel_ipt  2
+    100154: Comm Panel_ipt  20
+    100156: Comm Panel_ipt  21
+    100158: Comm Panel_ipt  22
+    100160: Comm Panel_ipt  23
+    100162: Comm Panel_ipt  24
+    100164: Comm Panel_ipt  25
+    100166: Comm Panel_ipt  3
+    100168: Comm Panel_ipt  4
+    100170: Comm Panel_ipt  5
+    100172: Comm Panel_ipt  6
+    100174: Comm Panel_ipt  7
+    100176: Comm Panel_ipt  8
+    100178: Comm Panel_ipt  9
+    100180: Cylinder001
+    100182: Cylinder002
+    100184: Cylinder003
+    100186: Dummy01
+    100188: Emergency handle_ipt.apf:-L-1[1]
+    100190: Emergency handle_ipt.apf:Emergency handle_BODY-mesh[1]
+    100192: EntertainmentPiece_ipt.apf:-L-1
+    100194: EntertainmentPiece_ipt.apf:-L-2
+    100196: EntertainmentPiece_ipt.apf:-L-3
+    100198: EntertainmentPiece_ipt.apf:-L-4
+    100200: EntertainmentPiece_ipt.apf:-L-5
+    100202: EntertainmentPiece_ipt.apf:-L-6
+    100204: EntertainmentPiece_ipt.apf:-L-7
+    100206: EntertainmentPiece_ipt.apf:-L-8
+    100208: EntertainmentPiece_ipt.apf:-L-9
+    100210: EntertainmentPiece_ipt.apf:EntertainmentPiece_BODY-mesh
+    100212: Ergotron_Arm_wire.apf:capA#11
+    100214: Ergotron_Arm_wire.apf:capB#11
+    100216: Ergotron_Arm_wire.apf:capB#14
+    100218: Ergotron_Arm_wire.apf:cyl_body#8
+    100220: Ergotron_Arm_wire.apf:cyl_body#9
+    100222: Ergotron_Arm_wire.apf:faceA#10
+    100224: Ergotron_Arm_wire.apf:faceA#100
+    100226: Ergotron_Arm_wire.apf:faceA#101
+    100228: Ergotron_Arm_wire.apf:faceA#102
+    100230: Ergotron_Arm_wire.apf:faceA#103
+    100232: Ergotron_Arm_wire.apf:faceA#104
+    100234: Ergotron_Arm_wire.apf:faceA#105
+    100236: Ergotron_Arm_wire.apf:faceA#106
+    100238: Ergotron_Arm_wire.apf:faceA#107
+    100240: Ergotron_Arm_wire.apf:faceA#108
+    100242: Ergotron_Arm_wire.apf:faceA#109
+    100244: Ergotron_Arm_wire.apf:faceA#11
+    100246: Ergotron_Arm_wire.apf:faceA#110
+    100248: Ergotron_Arm_wire.apf:faceA#111
+    100250: Ergotron_Arm_wire.apf:faceA#112
+    100252: Ergotron_Arm_wire.apf:faceA#113
+    100254: Ergotron_Arm_wire.apf:faceA#114
+    100256: Ergotron_Arm_wire.apf:faceA#115
+    100258: Ergotron_Arm_wire.apf:faceA#116
+    100260: Ergotron_Arm_wire.apf:faceA#117
+    100262: Ergotron_Arm_wire.apf:faceA#118
+    100264: Ergotron_Arm_wire.apf:faceA#119
+    100266: Ergotron_Arm_wire.apf:faceA#12
+    100268: Ergotron_Arm_wire.apf:faceA#120
+    100270: Ergotron_Arm_wire.apf:faceA#121
+    100272: Ergotron_Arm_wire.apf:faceA#123
+    100274: Ergotron_Arm_wire.apf:faceA#13
+    100276: Ergotron_Arm_wire.apf:faceA#14
+    100278: Ergotron_Arm_wire.apf:faceA#15
+    100280: Ergotron_Arm_wire.apf:faceA#16
+    100282: Ergotron_Arm_wire.apf:faceA#17
+    100284: Ergotron_Arm_wire.apf:faceA#18
+    100286: Ergotron_Arm_wire.apf:faceA#19
+    100288: Ergotron_Arm_wire.apf:faceA#2
+    100290: Ergotron_Arm_wire.apf:faceA#20
+    100292: Ergotron_Arm_wire.apf:faceA#21
+    100294: Ergotron_Arm_wire.apf:faceA#22
+    100296: Ergotron_Arm_wire.apf:faceA#23
+    100298: Ergotron_Arm_wire.apf:faceA#24
+    100300: Ergotron_Arm_wire.apf:faceA#25
+    100302: Ergotron_Arm_wire.apf:faceA#26
+    100304: Ergotron_Arm_wire.apf:faceA#28
+    100306: Ergotron_Arm_wire.apf:faceA#29
+    100308: Ergotron_Arm_wire.apf:faceA#3
+    100310: Ergotron_Arm_wire.apf:faceA#30
+    100312: Ergotron_Arm_wire.apf:faceA#32
+    100314: Ergotron_Arm_wire.apf:faceA#33
+    100316: Ergotron_Arm_wire.apf:faceA#34
+    100318: Ergotron_Arm_wire.apf:faceA#35
+    100320: Ergotron_Arm_wire.apf:faceA#36
+    100322: Ergotron_Arm_wire.apf:faceA#37
+    100324: Ergotron_Arm_wire.apf:faceA#38
+    100326: Ergotron_Arm_wire.apf:faceA#39
+    100328: Ergotron_Arm_wire.apf:faceA#4
+    100330: Ergotron_Arm_wire.apf:faceA#40
+    100332: Ergotron_Arm_wire.apf:faceA#42
+    100334: Ergotron_Arm_wire.apf:faceA#43
+    100336: Ergotron_Arm_wire.apf:faceA#44
+    100338: Ergotron_Arm_wire.apf:faceA#45
+    100340: Ergotron_Arm_wire.apf:faceA#46
+    100342: Ergotron_Arm_wire.apf:faceA#47
+    100344: Ergotron_Arm_wire.apf:faceA#48
+    100346: Ergotron_Arm_wire.apf:faceA#49
+    100348: Ergotron_Arm_wire.apf:faceA#5
+    100350: Ergotron_Arm_wire.apf:faceA#50
+    100352: Ergotron_Arm_wire.apf:faceA#51
+    100354: Ergotron_Arm_wire.apf:faceA#52
+    100356: Ergotron_Arm_wire.apf:faceA#53
+    100358: Ergotron_Arm_wire.apf:faceA#54
+    100360: Ergotron_Arm_wire.apf:faceA#55
+    100362: Ergotron_Arm_wire.apf:faceA#56
+    100364: Ergotron_Arm_wire.apf:faceA#57
+    100366: Ergotron_Arm_wire.apf:faceA#58
+    100368: Ergotron_Arm_wire.apf:faceA#59
+    100370: Ergotron_Arm_wire.apf:faceA#60
+    100372: Ergotron_Arm_wire.apf:faceA#61
+    100374: Ergotron_Arm_wire.apf:faceA#62
+    100376: Ergotron_Arm_wire.apf:faceA#63
+    100378: Ergotron_Arm_wire.apf:faceA#64
+    100380: Ergotron_Arm_wire.apf:faceA#67
+    100382: Ergotron_Arm_wire.apf:faceA#68
+    100384: Ergotron_Arm_wire.apf:faceA#69
+    100386: Ergotron_Arm_wire.apf:faceA#7
+    100388: Ergotron_Arm_wire.apf:faceA#70
+    100390: Ergotron_Arm_wire.apf:faceA#71
+    100392: Ergotron_Arm_wire.apf:faceA#72
+    100394: Ergotron_Arm_wire.apf:faceA#73
+    100396: Ergotron_Arm_wire.apf:faceA#74
+    100398: Ergotron_Arm_wire.apf:faceA#75
+    100400: Ergotron_Arm_wire.apf:faceA#76
+    100402: Ergotron_Arm_wire.apf:faceA#77
+    100404: Ergotron_Arm_wire.apf:faceA#78
+    100406: Ergotron_Arm_wire.apf:faceA#79
+    100408: Ergotron_Arm_wire.apf:faceA#8
+    100410: Ergotron_Arm_wire.apf:faceA#80
+    100412: Ergotron_Arm_wire.apf:faceA#81
+    100414: Ergotron_Arm_wire.apf:faceA#82
+    100416: Ergotron_Arm_wire.apf:faceA#83
+    100418: Ergotron_Arm_wire.apf:faceA#84
+    100420: Ergotron_Arm_wire.apf:faceA#85
+    100422: Ergotron_Arm_wire.apf:faceA#86
+    100424: Ergotron_Arm_wire.apf:faceA#87
+    100426: Ergotron_Arm_wire.apf:faceA#88
+    100428: Ergotron_Arm_wire.apf:faceA#89
+    100430: Ergotron_Arm_wire.apf:faceA#9
+    100432: Ergotron_Arm_wire.apf:faceA#90
+    100434: Ergotron_Arm_wire.apf:faceA#91
+    100436: Ergotron_Arm_wire.apf:faceA#92
+    100438: Ergotron_Arm_wire.apf:faceA#93
+    100440: Ergotron_Arm_wire.apf:faceA#94
+    100442: Ergotron_Arm_wire.apf:faceA#95
+    100444: Ergotron_Arm_wire.apf:fillet_piece#5
+    100446: Ergotron_Arm_wire.apf:fillet_srf#2
+    100448: Ergotron_Arm_wire.apf:fillet_srf#4
+    100450: Ergotron_Arm_wire.apf:fillet_srf#5
+    100452: Ergotron_Arm_wire.apf:fillet_srf#7
+    100454: Ergotron_Arm_wire.apf:skin#10
+    100456: Ergotron_Arm_wire.apf:skin#15
+    100458: Ergotron_Arm_wire.apf:sphere#10
+    100460: Ergotron_Arm_wire.apf:sphere#11
+    100462: Ergotron_Arm_wire.apf:sphere#13
+    100464: Ergotron_Arm_wire.apf:sphere#14
+    100466: Ergotron_Arm_wire.apf:sphere#15
+    100468: Ergotron_Arm_wire.apf:sphere#2
+    100470: Ergotron_Arm_wire.apf:sphere#3
+    100472: Ergotron_Arm_wire.apf:trim_surface
+    100474: from_gurney.a3s::base_STL.apf:base
+    100476: 'from_gurney.a3s::topFrame_STL '
+    100478: from_gurney.a3s::wheel_STL.apf:wheel
+    100480: front_logo
+    100482: Group001
+    100484: Group002
+    100486: Group003
+    100488: Group004
+    100490: Group005
+    100492: Group006
+    100494: Group007
+    100496: handles
+    100498: handles bar
+    100500: keys
+    100502: Plane001
+    100504: plate_ipt.apf:plate_ipt.apf-mesh[1]
+    100506: port cover_ipt.apf:port cover_ipt.apf-mesh[5]
+    100508: port cover_ipt.apf:port cover_ipt.apf-mesh[6]
+    100510: port cover_ipt.apf:port cover_ipt.apf-mesh[7]
+    100512: PowerSwitch_wire.apf:capA#2
+    100514: PowerSwitch_wire.apf:cyl_body#5
+    100516: PowerSwitch_wire.apf:cyl_body#6
+    100518: PowerSwitch_wire.apf:cyl_body#7
+    100520: PowerSwitch_wire.apf:cyl_body#8
+    100522: PowerSwitch_wire.apf:fillet_srf#2
+    100524: PowerSwitch_wire.apf:fillet_srf#7
+    100526: PowerSwitch_wire.apf:fillet_srf#8
+    100528: rivet_ipt.apf:rivet_ipt.apf-mesh[25]
+    100530: rivet_ipt.apf:rivet_ipt.apf-mesh[26]
+    100532: side bars
+    100534: top of base
+    100536: wheel_STL.apf:wheel[0]-MIRRORED
+    100538: wheel_STL.apf:wheel[1]-MIRRORED
+    100540: wheel_STL.apf:wheel[2]-MIRRORED
+    400000: 'Baramed1_iam '
+    400002: Baramed1_iam  1
+    400004: Baramed1_iam  10
+    400006: Baramed1_iam  11
+    400008: Baramed1_iam  12
+    400010: Baramed1_iam  13
+    400012: Baramed1_iam  14
+    400014: Baramed1_iam  15
+    400016: Baramed1_iam  16
+    400018: Baramed1_iam  17
+    400020: Baramed1_iam  18
+    400022: Baramed1_iam  19
+    400024: Baramed1_iam  2
+    400026: Baramed1_iam  20
+    400028: Baramed1_iam  21
+    400030: Baramed1_iam  22
+    400032: Baramed1_iam  23
+    400034: Baramed1_iam  24
+    400036: Baramed1_iam  25
+    400038: Baramed1_iam  26
+    400040: Baramed1_iam  27
+    400042: Baramed1_iam  28
+    400044: Baramed1_iam  29
+    400046: Baramed1_iam  3
+    400048: Baramed1_iam  30
+    400050: Baramed1_iam  31
+    400052: Baramed1_iam  32
+    400054: Baramed1_iam  33
+    400056: Baramed1_iam  34
+    400058: Baramed1_iam  35
+    400060: Baramed1_iam  36
+    400062: Baramed1_iam  37
+    400064: Baramed1_iam  38
+    400066: Baramed1_iam  39
+    400068: Baramed1_iam  4
+    400070: Baramed1_iam  5
+    400072: Baramed1_iam  6
+    400074: Baramed1_iam  7
+    400076: Baramed1_iam  8
+    400078: Baramed1_iam  9
+    400080: Baramed_Assem_Shroud_WideBase_iam.apf:-L-18
+    400082: Baramed_Assem_Shroud_WideBase_iam.apf:-L-19
+    400084: Baramed_Assem_Shroud_WideBase_iam.apf:-L-20
+    400086: Baramed_Assem_Shroud_WideBase_iam.apf:-L-21
+    400088: Baramed_Assem_Shroud_WideBase_iam.apf:-L-22
+    400090: Baramed_Assem_Shroud_WideBase_iam.apf:29-mesh
+    400092: Baramed_Assem_Shroud_WideBase_iam.apf:Base2:1_BODY-mesh
+    400094: //RootNode
+    400096: bars
+    400098: bolt1_ipt.apf:bolt1_ipt.apf-mesh[12]
+    400100: bolt1_ipt.apf:bolt1_ipt.apf-mesh[13]
+    400102: bolt1_ipt.apf:bolt1_ipt.apf-mesh[14]
+    400104: bolt1_ipt.apf:bolt1_ipt.apf-mesh[15]
+    400106: boltz
+    400108: bottom bar
+    400110: Box001
+    400112: Box002
+    400114: Box003
+    400116: Box004
+    400118: ChamferBox01
+    400120: ChamferCyl01
+    400122: ChamferCyl02
+    400124: ChamferCyl03
+    400126: ChamferCyl04
+    400128: 'Comm Panel_ipt '
+    400130: Comm Panel_ipt  1
+    400132: Comm Panel_ipt  10
+    400134: Comm Panel_ipt  11
+    400136: Comm Panel_ipt  12
+    400138: Comm Panel_ipt  13
+    400140: Comm Panel_ipt  14
+    400142: Comm Panel_ipt  15
+    400144: Comm Panel_ipt  16
+    400146: Comm Panel_ipt  17
+    400148: Comm Panel_ipt  18
+    400150: Comm Panel_ipt  19
+    400152: Comm Panel_ipt  2
+    400154: Comm Panel_ipt  20
+    400156: Comm Panel_ipt  21
+    400158: Comm Panel_ipt  22
+    400160: Comm Panel_ipt  23
+    400162: Comm Panel_ipt  24
+    400164: Comm Panel_ipt  25
+    400166: Comm Panel_ipt  3
+    400168: Comm Panel_ipt  4
+    400170: Comm Panel_ipt  5
+    400172: Comm Panel_ipt  6
+    400174: Comm Panel_ipt  7
+    400176: Comm Panel_ipt  8
+    400178: Comm Panel_ipt  9
+    400180: Cylinder001
+    400182: Cylinder002
+    400184: Cylinder003
+    400186: Dummy01
+    400188: Emergency handle_ipt.apf:-L-1[1]
+    400190: Emergency handle_ipt.apf:Emergency handle_BODY-mesh[1]
+    400192: EntertainmentPiece_ipt.apf:-L-1
+    400194: EntertainmentPiece_ipt.apf:-L-2
+    400196: EntertainmentPiece_ipt.apf:-L-3
+    400198: EntertainmentPiece_ipt.apf:-L-4
+    400200: EntertainmentPiece_ipt.apf:-L-5
+    400202: EntertainmentPiece_ipt.apf:-L-6
+    400204: EntertainmentPiece_ipt.apf:-L-7
+    400206: EntertainmentPiece_ipt.apf:-L-8
+    400208: EntertainmentPiece_ipt.apf:-L-9
+    400210: EntertainmentPiece_ipt.apf:EntertainmentPiece_BODY-mesh
+    400212: Ergotron_Arm_wire.apf:capA#11
+    400214: Ergotron_Arm_wire.apf:capB#11
+    400216: Ergotron_Arm_wire.apf:capB#14
+    400218: Ergotron_Arm_wire.apf:cyl_body#8
+    400220: Ergotron_Arm_wire.apf:cyl_body#9
+    400222: Ergotron_Arm_wire.apf:faceA#10
+    400224: Ergotron_Arm_wire.apf:faceA#100
+    400226: Ergotron_Arm_wire.apf:faceA#101
+    400228: Ergotron_Arm_wire.apf:faceA#102
+    400230: Ergotron_Arm_wire.apf:faceA#103
+    400232: Ergotron_Arm_wire.apf:faceA#104
+    400234: Ergotron_Arm_wire.apf:faceA#105
+    400236: Ergotron_Arm_wire.apf:faceA#106
+    400238: Ergotron_Arm_wire.apf:faceA#107
+    400240: Ergotron_Arm_wire.apf:faceA#108
+    400242: Ergotron_Arm_wire.apf:faceA#109
+    400244: Ergotron_Arm_wire.apf:faceA#11
+    400246: Ergotron_Arm_wire.apf:faceA#110
+    400248: Ergotron_Arm_wire.apf:faceA#111
+    400250: Ergotron_Arm_wire.apf:faceA#112
+    400252: Ergotron_Arm_wire.apf:faceA#113
+    400254: Ergotron_Arm_wire.apf:faceA#114
+    400256: Ergotron_Arm_wire.apf:faceA#115
+    400258: Ergotron_Arm_wire.apf:faceA#116
+    400260: Ergotron_Arm_wire.apf:faceA#117
+    400262: Ergotron_Arm_wire.apf:faceA#118
+    400264: Ergotron_Arm_wire.apf:faceA#119
+    400266: Ergotron_Arm_wire.apf:faceA#12
+    400268: Ergotron_Arm_wire.apf:faceA#120
+    400270: Ergotron_Arm_wire.apf:faceA#121
+    400272: Ergotron_Arm_wire.apf:faceA#123
+    400274: Ergotron_Arm_wire.apf:faceA#13
+    400276: Ergotron_Arm_wire.apf:faceA#14
+    400278: Ergotron_Arm_wire.apf:faceA#15
+    400280: Ergotron_Arm_wire.apf:faceA#16
+    400282: Ergotron_Arm_wire.apf:faceA#17
+    400284: Ergotron_Arm_wire.apf:faceA#18
+    400286: Ergotron_Arm_wire.apf:faceA#19
+    400288: Ergotron_Arm_wire.apf:faceA#2
+    400290: Ergotron_Arm_wire.apf:faceA#20
+    400292: Ergotron_Arm_wire.apf:faceA#21
+    400294: Ergotron_Arm_wire.apf:faceA#22
+    400296: Ergotron_Arm_wire.apf:faceA#23
+    400298: Ergotron_Arm_wire.apf:faceA#24
+    400300: Ergotron_Arm_wire.apf:faceA#25
+    400302: Ergotron_Arm_wire.apf:faceA#26
+    400304: Ergotron_Arm_wire.apf:faceA#28
+    400306: Ergotron_Arm_wire.apf:faceA#29
+    400308: Ergotron_Arm_wire.apf:faceA#3
+    400310: Ergotron_Arm_wire.apf:faceA#30
+    400312: Ergotron_Arm_wire.apf:faceA#32
+    400314: Ergotron_Arm_wire.apf:faceA#33
+    400316: Ergotron_Arm_wire.apf:faceA#34
+    400318: Ergotron_Arm_wire.apf:faceA#35
+    400320: Ergotron_Arm_wire.apf:faceA#36
+    400322: Ergotron_Arm_wire.apf:faceA#37
+    400324: Ergotron_Arm_wire.apf:faceA#38
+    400326: Ergotron_Arm_wire.apf:faceA#39
+    400328: Ergotron_Arm_wire.apf:faceA#4
+    400330: Ergotron_Arm_wire.apf:faceA#40
+    400332: Ergotron_Arm_wire.apf:faceA#42
+    400334: Ergotron_Arm_wire.apf:faceA#43
+    400336: Ergotron_Arm_wire.apf:faceA#44
+    400338: Ergotron_Arm_wire.apf:faceA#45
+    400340: Ergotron_Arm_wire.apf:faceA#46
+    400342: Ergotron_Arm_wire.apf:faceA#47
+    400344: Ergotron_Arm_wire.apf:faceA#48
+    400346: Ergotron_Arm_wire.apf:faceA#49
+    400348: Ergotron_Arm_wire.apf:faceA#5
+    400350: Ergotron_Arm_wire.apf:faceA#50
+    400352: Ergotron_Arm_wire.apf:faceA#51
+    400354: Ergotron_Arm_wire.apf:faceA#52
+    400356: Ergotron_Arm_wire.apf:faceA#53
+    400358: Ergotron_Arm_wire.apf:faceA#54
+    400360: Ergotron_Arm_wire.apf:faceA#55
+    400362: Ergotron_Arm_wire.apf:faceA#56
+    400364: Ergotron_Arm_wire.apf:faceA#57
+    400366: Ergotron_Arm_wire.apf:faceA#58
+    400368: Ergotron_Arm_wire.apf:faceA#59
+    400370: Ergotron_Arm_wire.apf:faceA#60
+    400372: Ergotron_Arm_wire.apf:faceA#61
+    400374: Ergotron_Arm_wire.apf:faceA#62
+    400376: Ergotron_Arm_wire.apf:faceA#63
+    400378: Ergotron_Arm_wire.apf:faceA#64
+    400380: Ergotron_Arm_wire.apf:faceA#67
+    400382: Ergotron_Arm_wire.apf:faceA#68
+    400384: Ergotron_Arm_wire.apf:faceA#69
+    400386: Ergotron_Arm_wire.apf:faceA#7
+    400388: Ergotron_Arm_wire.apf:faceA#70
+    400390: Ergotron_Arm_wire.apf:faceA#71
+    400392: Ergotron_Arm_wire.apf:faceA#72
+    400394: Ergotron_Arm_wire.apf:faceA#73
+    400396: Ergotron_Arm_wire.apf:faceA#74
+    400398: Ergotron_Arm_wire.apf:faceA#75
+    400400: Ergotron_Arm_wire.apf:faceA#76
+    400402: Ergotron_Arm_wire.apf:faceA#77
+    400404: Ergotron_Arm_wire.apf:faceA#78
+    400406: Ergotron_Arm_wire.apf:faceA#79
+    400408: Ergotron_Arm_wire.apf:faceA#8
+    400410: Ergotron_Arm_wire.apf:faceA#80
+    400412: Ergotron_Arm_wire.apf:faceA#81
+    400414: Ergotron_Arm_wire.apf:faceA#82
+    400416: Ergotron_Arm_wire.apf:faceA#83
+    400418: Ergotron_Arm_wire.apf:faceA#84
+    400420: Ergotron_Arm_wire.apf:faceA#85
+    400422: Ergotron_Arm_wire.apf:faceA#86
+    400424: Ergotron_Arm_wire.apf:faceA#87
+    400426: Ergotron_Arm_wire.apf:faceA#88
+    400428: Ergotron_Arm_wire.apf:faceA#89
+    400430: Ergotron_Arm_wire.apf:faceA#9
+    400432: Ergotron_Arm_wire.apf:faceA#90
+    400434: Ergotron_Arm_wire.apf:faceA#91
+    400436: Ergotron_Arm_wire.apf:faceA#92
+    400438: Ergotron_Arm_wire.apf:faceA#93
+    400440: Ergotron_Arm_wire.apf:faceA#94
+    400442: Ergotron_Arm_wire.apf:faceA#95
+    400444: Ergotron_Arm_wire.apf:fillet_piece#5
+    400446: Ergotron_Arm_wire.apf:fillet_srf#2
+    400448: Ergotron_Arm_wire.apf:fillet_srf#4
+    400450: Ergotron_Arm_wire.apf:fillet_srf#5
+    400452: Ergotron_Arm_wire.apf:fillet_srf#7
+    400454: Ergotron_Arm_wire.apf:skin#10
+    400456: Ergotron_Arm_wire.apf:skin#15
+    400458: Ergotron_Arm_wire.apf:sphere#10
+    400460: Ergotron_Arm_wire.apf:sphere#11
+    400462: Ergotron_Arm_wire.apf:sphere#13
+    400464: Ergotron_Arm_wire.apf:sphere#14
+    400466: Ergotron_Arm_wire.apf:sphere#15
+    400468: Ergotron_Arm_wire.apf:sphere#2
+    400470: Ergotron_Arm_wire.apf:sphere#3
+    400472: Ergotron_Arm_wire.apf:trim_surface
+    400474: from_gurney.a3s::base_STL.apf:base
+    400476: 'from_gurney.a3s::topFrame_STL '
+    400478: from_gurney.a3s::wheel_STL.apf:wheel
+    400480: front_logo
+    400482: Group001
+    400484: Group002
+    400486: Group003
+    400488: Group004
+    400490: Group005
+    400492: Group006
+    400494: Group007
+    400496: handles
+    400498: handles bar
+    400500: keys
+    400502: Plane001
+    400504: plate_ipt.apf:plate_ipt.apf-mesh[1]
+    400506: port cover_ipt.apf:port cover_ipt.apf-mesh[5]
+    400508: port cover_ipt.apf:port cover_ipt.apf-mesh[6]
+    400510: port cover_ipt.apf:port cover_ipt.apf-mesh[7]
+    400512: PowerSwitch_wire.apf:capA#2
+    400514: PowerSwitch_wire.apf:cyl_body#5
+    400516: PowerSwitch_wire.apf:cyl_body#6
+    400518: PowerSwitch_wire.apf:cyl_body#7
+    400520: PowerSwitch_wire.apf:cyl_body#8
+    400522: PowerSwitch_wire.apf:fillet_srf#2
+    400524: PowerSwitch_wire.apf:fillet_srf#7
+    400526: PowerSwitch_wire.apf:fillet_srf#8
+    400528: rivet_ipt.apf:rivet_ipt.apf-mesh[25]
+    400530: rivet_ipt.apf:rivet_ipt.apf-mesh[26]
+    400532: side bars
+    400534: top of base
+    400536: wheel_STL.apf:wheel[0]-MIRRORED
+    400538: wheel_STL.apf:wheel[1]-MIRRORED
+    400540: wheel_STL.apf:wheel[2]-MIRRORED
+    2300000: 'Baramed1_iam '
+    2300002: Baramed1_iam  1
+    2300004: Baramed1_iam  10
+    2300006: Baramed1_iam  11
+    2300008: Baramed1_iam  12
+    2300010: Baramed1_iam  13
+    2300012: Baramed1_iam  14
+    2300014: Baramed1_iam  15
+    2300016: Baramed1_iam  16
+    2300018: Baramed1_iam  17
+    2300020: Baramed1_iam  18
+    2300022: Baramed1_iam  19
+    2300024: Baramed1_iam  2
+    2300026: Baramed1_iam  20
+    2300028: Baramed1_iam  21
+    2300030: Baramed1_iam  22
+    2300032: Baramed1_iam  23
+    2300034: Baramed1_iam  24
+    2300036: Baramed1_iam  25
+    2300038: Baramed1_iam  26
+    2300040: Baramed1_iam  27
+    2300042: Baramed1_iam  28
+    2300044: Baramed1_iam  29
+    2300046: Baramed1_iam  3
+    2300048: Baramed1_iam  30
+    2300050: Baramed1_iam  31
+    2300052: Baramed1_iam  32
+    2300054: Baramed1_iam  33
+    2300056: Baramed1_iam  34
+    2300058: Baramed1_iam  35
+    2300060: Baramed1_iam  36
+    2300062: Baramed1_iam  37
+    2300064: Baramed1_iam  38
+    2300066: Baramed1_iam  39
+    2300068: Baramed1_iam  4
+    2300070: Baramed1_iam  5
+    2300072: Baramed1_iam  6
+    2300074: Baramed1_iam  7
+    2300076: Baramed1_iam  8
+    2300078: Baramed1_iam  9
+    2300080: Baramed_Assem_Shroud_WideBase_iam.apf:-L-18
+    2300082: Baramed_Assem_Shroud_WideBase_iam.apf:-L-19
+    2300084: Baramed_Assem_Shroud_WideBase_iam.apf:-L-20
+    2300086: Baramed_Assem_Shroud_WideBase_iam.apf:-L-21
+    2300088: Baramed_Assem_Shroud_WideBase_iam.apf:-L-22
+    2300090: Baramed_Assem_Shroud_WideBase_iam.apf:29-mesh
+    2300092: Baramed_Assem_Shroud_WideBase_iam.apf:Base2:1_BODY-mesh
+    2300094: bars
+    2300096: bolt1_ipt.apf:bolt1_ipt.apf-mesh[12]
+    2300098: bolt1_ipt.apf:bolt1_ipt.apf-mesh[13]
+    2300100: bolt1_ipt.apf:bolt1_ipt.apf-mesh[14]
+    2300102: bolt1_ipt.apf:bolt1_ipt.apf-mesh[15]
+    2300104: boltz
+    2300106: bottom bar
+    2300108: Box001
+    2300110: Box002
+    2300112: Box003
+    2300114: Box004
+    2300116: ChamferBox01
+    2300118: ChamferCyl01
+    2300120: ChamferCyl02
+    2300122: ChamferCyl03
+    2300124: ChamferCyl04
+    2300126: 'Comm Panel_ipt '
+    2300128: Comm Panel_ipt  1
+    2300130: Comm Panel_ipt  10
+    2300132: Comm Panel_ipt  11
+    2300134: Comm Panel_ipt  12
+    2300136: Comm Panel_ipt  13
+    2300138: Comm Panel_ipt  14
+    2300140: Comm Panel_ipt  15
+    2300142: Comm Panel_ipt  16
+    2300144: Comm Panel_ipt  17
+    2300146: Comm Panel_ipt  18
+    2300148: Comm Panel_ipt  19
+    2300150: Comm Panel_ipt  2
+    2300152: Comm Panel_ipt  20
+    2300154: Comm Panel_ipt  21
+    2300156: Comm Panel_ipt  22
+    2300158: Comm Panel_ipt  23
+    2300160: Comm Panel_ipt  24
+    2300162: Comm Panel_ipt  25
+    2300164: Comm Panel_ipt  3
+    2300166: Comm Panel_ipt  4
+    2300168: Comm Panel_ipt  5
+    2300170: Comm Panel_ipt  6
+    2300172: Comm Panel_ipt  7
+    2300174: Comm Panel_ipt  8
+    2300176: Comm Panel_ipt  9
+    2300178: Cylinder001
+    2300180: Cylinder002
+    2300182: Cylinder003
+    2300184: Emergency handle_ipt.apf:-L-1[1]
+    2300186: Emergency handle_ipt.apf:Emergency handle_BODY-mesh[1]
+    2300188: EntertainmentPiece_ipt.apf:-L-1
+    2300190: EntertainmentPiece_ipt.apf:-L-2
+    2300192: EntertainmentPiece_ipt.apf:-L-3
+    2300194: EntertainmentPiece_ipt.apf:-L-4
+    2300196: EntertainmentPiece_ipt.apf:-L-5
+    2300198: EntertainmentPiece_ipt.apf:-L-6
+    2300200: EntertainmentPiece_ipt.apf:-L-7
+    2300202: EntertainmentPiece_ipt.apf:-L-8
+    2300204: EntertainmentPiece_ipt.apf:-L-9
+    2300206: EntertainmentPiece_ipt.apf:EntertainmentPiece_BODY-mesh
+    2300208: Ergotron_Arm_wire.apf:capA#11
+    2300210: Ergotron_Arm_wire.apf:capB#11
+    2300212: Ergotron_Arm_wire.apf:capB#14
+    2300214: Ergotron_Arm_wire.apf:cyl_body#8
+    2300216: Ergotron_Arm_wire.apf:cyl_body#9
+    2300218: Ergotron_Arm_wire.apf:faceA#10
+    2300220: Ergotron_Arm_wire.apf:faceA#100
+    2300222: Ergotron_Arm_wire.apf:faceA#101
+    2300224: Ergotron_Arm_wire.apf:faceA#102
+    2300226: Ergotron_Arm_wire.apf:faceA#103
+    2300228: Ergotron_Arm_wire.apf:faceA#104
+    2300230: Ergotron_Arm_wire.apf:faceA#105
+    2300232: Ergotron_Arm_wire.apf:faceA#106
+    2300234: Ergotron_Arm_wire.apf:faceA#107
+    2300236: Ergotron_Arm_wire.apf:faceA#108
+    2300238: Ergotron_Arm_wire.apf:faceA#109
+    2300240: Ergotron_Arm_wire.apf:faceA#11
+    2300242: Ergotron_Arm_wire.apf:faceA#110
+    2300244: Ergotron_Arm_wire.apf:faceA#111
+    2300246: Ergotron_Arm_wire.apf:faceA#112
+    2300248: Ergotron_Arm_wire.apf:faceA#113
+    2300250: Ergotron_Arm_wire.apf:faceA#114
+    2300252: Ergotron_Arm_wire.apf:faceA#115
+    2300254: Ergotron_Arm_wire.apf:faceA#116
+    2300256: Ergotron_Arm_wire.apf:faceA#117
+    2300258: Ergotron_Arm_wire.apf:faceA#118
+    2300260: Ergotron_Arm_wire.apf:faceA#119
+    2300262: Ergotron_Arm_wire.apf:faceA#12
+    2300264: Ergotron_Arm_wire.apf:faceA#120
+    2300266: Ergotron_Arm_wire.apf:faceA#121
+    2300268: Ergotron_Arm_wire.apf:faceA#123
+    2300270: Ergotron_Arm_wire.apf:faceA#13
+    2300272: Ergotron_Arm_wire.apf:faceA#14
+    2300274: Ergotron_Arm_wire.apf:faceA#15
+    2300276: Ergotron_Arm_wire.apf:faceA#16
+    2300278: Ergotron_Arm_wire.apf:faceA#17
+    2300280: Ergotron_Arm_wire.apf:faceA#18
+    2300282: Ergotron_Arm_wire.apf:faceA#19
+    2300284: Ergotron_Arm_wire.apf:faceA#2
+    2300286: Ergotron_Arm_wire.apf:faceA#20
+    2300288: Ergotron_Arm_wire.apf:faceA#21
+    2300290: Ergotron_Arm_wire.apf:faceA#22
+    2300292: Ergotron_Arm_wire.apf:faceA#23
+    2300294: Ergotron_Arm_wire.apf:faceA#24
+    2300296: Ergotron_Arm_wire.apf:faceA#25
+    2300298: Ergotron_Arm_wire.apf:faceA#26
+    2300300: Ergotron_Arm_wire.apf:faceA#28
+    2300302: Ergotron_Arm_wire.apf:faceA#29
+    2300304: Ergotron_Arm_wire.apf:faceA#3
+    2300306: Ergotron_Arm_wire.apf:faceA#30
+    2300308: Ergotron_Arm_wire.apf:faceA#32
+    2300310: Ergotron_Arm_wire.apf:faceA#33
+    2300312: Ergotron_Arm_wire.apf:faceA#34
+    2300314: Ergotron_Arm_wire.apf:faceA#35
+    2300316: Ergotron_Arm_wire.apf:faceA#36
+    2300318: Ergotron_Arm_wire.apf:faceA#37
+    2300320: Ergotron_Arm_wire.apf:faceA#38
+    2300322: Ergotron_Arm_wire.apf:faceA#39
+    2300324: Ergotron_Arm_wire.apf:faceA#4
+    2300326: Ergotron_Arm_wire.apf:faceA#40
+    2300328: Ergotron_Arm_wire.apf:faceA#42
+    2300330: Ergotron_Arm_wire.apf:faceA#43
+    2300332: Ergotron_Arm_wire.apf:faceA#44
+    2300334: Ergotron_Arm_wire.apf:faceA#45
+    2300336: Ergotron_Arm_wire.apf:faceA#46
+    2300338: Ergotron_Arm_wire.apf:faceA#47
+    2300340: Ergotron_Arm_wire.apf:faceA#48
+    2300342: Ergotron_Arm_wire.apf:faceA#49
+    2300344: Ergotron_Arm_wire.apf:faceA#5
+    2300346: Ergotron_Arm_wire.apf:faceA#50
+    2300348: Ergotron_Arm_wire.apf:faceA#51
+    2300350: Ergotron_Arm_wire.apf:faceA#52
+    2300352: Ergotron_Arm_wire.apf:faceA#53
+    2300354: Ergotron_Arm_wire.apf:faceA#54
+    2300356: Ergotron_Arm_wire.apf:faceA#55
+    2300358: Ergotron_Arm_wire.apf:faceA#56
+    2300360: Ergotron_Arm_wire.apf:faceA#57
+    2300362: Ergotron_Arm_wire.apf:faceA#58
+    2300364: Ergotron_Arm_wire.apf:faceA#59
+    2300366: Ergotron_Arm_wire.apf:faceA#60
+    2300368: Ergotron_Arm_wire.apf:faceA#61
+    2300370: Ergotron_Arm_wire.apf:faceA#62
+    2300372: Ergotron_Arm_wire.apf:faceA#63
+    2300374: Ergotron_Arm_wire.apf:faceA#64
+    2300376: Ergotron_Arm_wire.apf:faceA#67
+    2300378: Ergotron_Arm_wire.apf:faceA#68
+    2300380: Ergotron_Arm_wire.apf:faceA#69
+    2300382: Ergotron_Arm_wire.apf:faceA#7
+    2300384: Ergotron_Arm_wire.apf:faceA#70
+    2300386: Ergotron_Arm_wire.apf:faceA#71
+    2300388: Ergotron_Arm_wire.apf:faceA#72
+    2300390: Ergotron_Arm_wire.apf:faceA#73
+    2300392: Ergotron_Arm_wire.apf:faceA#74
+    2300394: Ergotron_Arm_wire.apf:faceA#75
+    2300396: Ergotron_Arm_wire.apf:faceA#76
+    2300398: Ergotron_Arm_wire.apf:faceA#77
+    2300400: Ergotron_Arm_wire.apf:faceA#78
+    2300402: Ergotron_Arm_wire.apf:faceA#79
+    2300404: Ergotron_Arm_wire.apf:faceA#8
+    2300406: Ergotron_Arm_wire.apf:faceA#80
+    2300408: Ergotron_Arm_wire.apf:faceA#81
+    2300410: Ergotron_Arm_wire.apf:faceA#82
+    2300412: Ergotron_Arm_wire.apf:faceA#83
+    2300414: Ergotron_Arm_wire.apf:faceA#84
+    2300416: Ergotron_Arm_wire.apf:faceA#85
+    2300418: Ergotron_Arm_wire.apf:faceA#86
+    2300420: Ergotron_Arm_wire.apf:faceA#87
+    2300422: Ergotron_Arm_wire.apf:faceA#88
+    2300424: Ergotron_Arm_wire.apf:faceA#89
+    2300426: Ergotron_Arm_wire.apf:faceA#9
+    2300428: Ergotron_Arm_wire.apf:faceA#90
+    2300430: Ergotron_Arm_wire.apf:faceA#91
+    2300432: Ergotron_Arm_wire.apf:faceA#92
+    2300434: Ergotron_Arm_wire.apf:faceA#93
+    2300436: Ergotron_Arm_wire.apf:faceA#94
+    2300438: Ergotron_Arm_wire.apf:faceA#95
+    2300440: Ergotron_Arm_wire.apf:fillet_piece#5
+    2300442: Ergotron_Arm_wire.apf:fillet_srf#2
+    2300444: Ergotron_Arm_wire.apf:fillet_srf#4
+    2300446: Ergotron_Arm_wire.apf:fillet_srf#5
+    2300448: Ergotron_Arm_wire.apf:fillet_srf#7
+    2300450: Ergotron_Arm_wire.apf:skin#10
+    2300452: Ergotron_Arm_wire.apf:skin#15
+    2300454: Ergotron_Arm_wire.apf:sphere#10
+    2300456: Ergotron_Arm_wire.apf:sphere#11
+    2300458: Ergotron_Arm_wire.apf:sphere#13
+    2300460: Ergotron_Arm_wire.apf:sphere#14
+    2300462: Ergotron_Arm_wire.apf:sphere#15
+    2300464: Ergotron_Arm_wire.apf:sphere#2
+    2300466: Ergotron_Arm_wire.apf:sphere#3
+    2300468: Ergotron_Arm_wire.apf:trim_surface
+    2300470: from_gurney.a3s::base_STL.apf:base
+    2300472: 'from_gurney.a3s::topFrame_STL '
+    2300474: from_gurney.a3s::wheel_STL.apf:wheel
+    2300476: front_logo
+    2300478: handles
+    2300480: handles bar
+    2300482: Plane001
+    2300484: plate_ipt.apf:plate_ipt.apf-mesh[1]
+    2300486: port cover_ipt.apf:port cover_ipt.apf-mesh[5]
+    2300488: port cover_ipt.apf:port cover_ipt.apf-mesh[6]
+    2300490: port cover_ipt.apf:port cover_ipt.apf-mesh[7]
+    2300492: PowerSwitch_wire.apf:capA#2
+    2300494: PowerSwitch_wire.apf:cyl_body#5
+    2300496: PowerSwitch_wire.apf:cyl_body#6
+    2300498: PowerSwitch_wire.apf:cyl_body#7
+    2300500: PowerSwitch_wire.apf:cyl_body#8
+    2300502: PowerSwitch_wire.apf:fillet_srf#2
+    2300504: PowerSwitch_wire.apf:fillet_srf#7
+    2300506: PowerSwitch_wire.apf:fillet_srf#8
+    2300508: rivet_ipt.apf:rivet_ipt.apf-mesh[25]
+    2300510: rivet_ipt.apf:rivet_ipt.apf-mesh[26]
+    2300512: side bars
+    2300514: top of base
+    2300516: wheel_STL.apf:wheel[0]-MIRRORED
+    2300518: wheel_STL.apf:wheel[1]-MIRRORED
+    2300520: wheel_STL.apf:wheel[2]-MIRRORED
+    3300000: 'Baramed1_iam '
+    3300002: Baramed1_iam  1
+    3300004: Baramed1_iam  10
+    3300006: Baramed1_iam  11
+    3300008: Baramed1_iam  12
+    3300010: Baramed1_iam  13
+    3300012: Baramed1_iam  14
+    3300014: Baramed1_iam  15
+    3300016: Baramed1_iam  16
+    3300018: Baramed1_iam  17
+    3300020: Baramed1_iam  18
+    3300022: Baramed1_iam  19
+    3300024: Baramed1_iam  2
+    3300026: Baramed1_iam  20
+    3300028: Baramed1_iam  21
+    3300030: Baramed1_iam  22
+    3300032: Baramed1_iam  23
+    3300034: Baramed1_iam  24
+    3300036: Baramed1_iam  25
+    3300038: Baramed1_iam  26
+    3300040: Baramed1_iam  27
+    3300042: Baramed1_iam  28
+    3300044: Baramed1_iam  29
+    3300046: Baramed1_iam  3
+    3300048: Baramed1_iam  30
+    3300050: Baramed1_iam  31
+    3300052: Baramed1_iam  32
+    3300054: Baramed1_iam  33
+    3300056: Baramed1_iam  34
+    3300058: Baramed1_iam  35
+    3300060: Baramed1_iam  36
+    3300062: Baramed1_iam  37
+    3300064: Baramed1_iam  38
+    3300066: Baramed1_iam  39
+    3300068: Baramed1_iam  4
+    3300070: Baramed1_iam  5
+    3300072: Baramed1_iam  6
+    3300074: Baramed1_iam  7
+    3300076: Baramed1_iam  8
+    3300078: Baramed1_iam  9
+    3300080: Baramed_Assem_Shroud_WideBase_iam.apf:-L-18
+    3300082: Baramed_Assem_Shroud_WideBase_iam.apf:-L-19
+    3300084: Baramed_Assem_Shroud_WideBase_iam.apf:-L-20
+    3300086: Baramed_Assem_Shroud_WideBase_iam.apf:-L-21
+    3300088: Baramed_Assem_Shroud_WideBase_iam.apf:-L-22
+    3300090: Baramed_Assem_Shroud_WideBase_iam.apf:29-mesh
+    3300092: Baramed_Assem_Shroud_WideBase_iam.apf:Base2:1_BODY-mesh
+    3300094: bars
+    3300096: bolt1_ipt.apf:bolt1_ipt.apf-mesh[12]
+    3300098: bolt1_ipt.apf:bolt1_ipt.apf-mesh[13]
+    3300100: bolt1_ipt.apf:bolt1_ipt.apf-mesh[14]
+    3300102: bolt1_ipt.apf:bolt1_ipt.apf-mesh[15]
+    3300104: boltz
+    3300106: bottom bar
+    3300108: Box001
+    3300110: Box002
+    3300112: Box003
+    3300114: Box004
+    3300116: ChamferBox01
+    3300118: ChamferCyl01
+    3300120: ChamferCyl02
+    3300122: ChamferCyl03
+    3300124: ChamferCyl04
+    3300126: 'Comm Panel_ipt '
+    3300128: Comm Panel_ipt  1
+    3300130: Comm Panel_ipt  10
+    3300132: Comm Panel_ipt  11
+    3300134: Comm Panel_ipt  12
+    3300136: Comm Panel_ipt  13
+    3300138: Comm Panel_ipt  14
+    3300140: Comm Panel_ipt  15
+    3300142: Comm Panel_ipt  16
+    3300144: Comm Panel_ipt  17
+    3300146: Comm Panel_ipt  18
+    3300148: Comm Panel_ipt  19
+    3300150: Comm Panel_ipt  2
+    3300152: Comm Panel_ipt  20
+    3300154: Comm Panel_ipt  21
+    3300156: Comm Panel_ipt  22
+    3300158: Comm Panel_ipt  23
+    3300160: Comm Panel_ipt  24
+    3300162: Comm Panel_ipt  25
+    3300164: Comm Panel_ipt  3
+    3300166: Comm Panel_ipt  4
+    3300168: Comm Panel_ipt  5
+    3300170: Comm Panel_ipt  6
+    3300172: Comm Panel_ipt  7
+    3300174: Comm Panel_ipt  8
+    3300176: Comm Panel_ipt  9
+    3300178: Cylinder001
+    3300180: Cylinder002
+    3300182: Cylinder003
+    3300184: Emergency handle_ipt.apf:-L-1[1]
+    3300186: Emergency handle_ipt.apf:Emergency handle_BODY-mesh[1]
+    3300188: EntertainmentPiece_ipt.apf:-L-1
+    3300190: EntertainmentPiece_ipt.apf:-L-2
+    3300192: EntertainmentPiece_ipt.apf:-L-3
+    3300194: EntertainmentPiece_ipt.apf:-L-4
+    3300196: EntertainmentPiece_ipt.apf:-L-5
+    3300198: EntertainmentPiece_ipt.apf:-L-6
+    3300200: EntertainmentPiece_ipt.apf:-L-7
+    3300202: EntertainmentPiece_ipt.apf:-L-8
+    3300204: EntertainmentPiece_ipt.apf:-L-9
+    3300206: EntertainmentPiece_ipt.apf:EntertainmentPiece_BODY-mesh
+    3300208: Ergotron_Arm_wire.apf:capA#11
+    3300210: Ergotron_Arm_wire.apf:capB#11
+    3300212: Ergotron_Arm_wire.apf:capB#14
+    3300214: Ergotron_Arm_wire.apf:cyl_body#8
+    3300216: Ergotron_Arm_wire.apf:cyl_body#9
+    3300218: Ergotron_Arm_wire.apf:faceA#10
+    3300220: Ergotron_Arm_wire.apf:faceA#100
+    3300222: Ergotron_Arm_wire.apf:faceA#101
+    3300224: Ergotron_Arm_wire.apf:faceA#102
+    3300226: Ergotron_Arm_wire.apf:faceA#103
+    3300228: Ergotron_Arm_wire.apf:faceA#104
+    3300230: Ergotron_Arm_wire.apf:faceA#105
+    3300232: Ergotron_Arm_wire.apf:faceA#106
+    3300234: Ergotron_Arm_wire.apf:faceA#107
+    3300236: Ergotron_Arm_wire.apf:faceA#108
+    3300238: Ergotron_Arm_wire.apf:faceA#109
+    3300240: Ergotron_Arm_wire.apf:faceA#11
+    3300242: Ergotron_Arm_wire.apf:faceA#110
+    3300244: Ergotron_Arm_wire.apf:faceA#111
+    3300246: Ergotron_Arm_wire.apf:faceA#112
+    3300248: Ergotron_Arm_wire.apf:faceA#113
+    3300250: Ergotron_Arm_wire.apf:faceA#114
+    3300252: Ergotron_Arm_wire.apf:faceA#115
+    3300254: Ergotron_Arm_wire.apf:faceA#116
+    3300256: Ergotron_Arm_wire.apf:faceA#117
+    3300258: Ergotron_Arm_wire.apf:faceA#118
+    3300260: Ergotron_Arm_wire.apf:faceA#119
+    3300262: Ergotron_Arm_wire.apf:faceA#12
+    3300264: Ergotron_Arm_wire.apf:faceA#120
+    3300266: Ergotron_Arm_wire.apf:faceA#121
+    3300268: Ergotron_Arm_wire.apf:faceA#123
+    3300270: Ergotron_Arm_wire.apf:faceA#13
+    3300272: Ergotron_Arm_wire.apf:faceA#14
+    3300274: Ergotron_Arm_wire.apf:faceA#15
+    3300276: Ergotron_Arm_wire.apf:faceA#16
+    3300278: Ergotron_Arm_wire.apf:faceA#17
+    3300280: Ergotron_Arm_wire.apf:faceA#18
+    3300282: Ergotron_Arm_wire.apf:faceA#19
+    3300284: Ergotron_Arm_wire.apf:faceA#2
+    3300286: Ergotron_Arm_wire.apf:faceA#20
+    3300288: Ergotron_Arm_wire.apf:faceA#21
+    3300290: Ergotron_Arm_wire.apf:faceA#22
+    3300292: Ergotron_Arm_wire.apf:faceA#23
+    3300294: Ergotron_Arm_wire.apf:faceA#24
+    3300296: Ergotron_Arm_wire.apf:faceA#25
+    3300298: Ergotron_Arm_wire.apf:faceA#26
+    3300300: Ergotron_Arm_wire.apf:faceA#28
+    3300302: Ergotron_Arm_wire.apf:faceA#29
+    3300304: Ergotron_Arm_wire.apf:faceA#3
+    3300306: Ergotron_Arm_wire.apf:faceA#30
+    3300308: Ergotron_Arm_wire.apf:faceA#32
+    3300310: Ergotron_Arm_wire.apf:faceA#33
+    3300312: Ergotron_Arm_wire.apf:faceA#34
+    3300314: Ergotron_Arm_wire.apf:faceA#35
+    3300316: Ergotron_Arm_wire.apf:faceA#36
+    3300318: Ergotron_Arm_wire.apf:faceA#37
+    3300320: Ergotron_Arm_wire.apf:faceA#38
+    3300322: Ergotron_Arm_wire.apf:faceA#39
+    3300324: Ergotron_Arm_wire.apf:faceA#4
+    3300326: Ergotron_Arm_wire.apf:faceA#40
+    3300328: Ergotron_Arm_wire.apf:faceA#42
+    3300330: Ergotron_Arm_wire.apf:faceA#43
+    3300332: Ergotron_Arm_wire.apf:faceA#44
+    3300334: Ergotron_Arm_wire.apf:faceA#45
+    3300336: Ergotron_Arm_wire.apf:faceA#46
+    3300338: Ergotron_Arm_wire.apf:faceA#47
+    3300340: Ergotron_Arm_wire.apf:faceA#48
+    3300342: Ergotron_Arm_wire.apf:faceA#49
+    3300344: Ergotron_Arm_wire.apf:faceA#5
+    3300346: Ergotron_Arm_wire.apf:faceA#50
+    3300348: Ergotron_Arm_wire.apf:faceA#51
+    3300350: Ergotron_Arm_wire.apf:faceA#52
+    3300352: Ergotron_Arm_wire.apf:faceA#53
+    3300354: Ergotron_Arm_wire.apf:faceA#54
+    3300356: Ergotron_Arm_wire.apf:faceA#55
+    3300358: Ergotron_Arm_wire.apf:faceA#56
+    3300360: Ergotron_Arm_wire.apf:faceA#57
+    3300362: Ergotron_Arm_wire.apf:faceA#58
+    3300364: Ergotron_Arm_wire.apf:faceA#59
+    3300366: Ergotron_Arm_wire.apf:faceA#60
+    3300368: Ergotron_Arm_wire.apf:faceA#61
+    3300370: Ergotron_Arm_wire.apf:faceA#62
+    3300372: Ergotron_Arm_wire.apf:faceA#63
+    3300374: Ergotron_Arm_wire.apf:faceA#64
+    3300376: Ergotron_Arm_wire.apf:faceA#67
+    3300378: Ergotron_Arm_wire.apf:faceA#68
+    3300380: Ergotron_Arm_wire.apf:faceA#69
+    3300382: Ergotron_Arm_wire.apf:faceA#7
+    3300384: Ergotron_Arm_wire.apf:faceA#70
+    3300386: Ergotron_Arm_wire.apf:faceA#71
+    3300388: Ergotron_Arm_wire.apf:faceA#72
+    3300390: Ergotron_Arm_wire.apf:faceA#73
+    3300392: Ergotron_Arm_wire.apf:faceA#74
+    3300394: Ergotron_Arm_wire.apf:faceA#75
+    3300396: Ergotron_Arm_wire.apf:faceA#76
+    3300398: Ergotron_Arm_wire.apf:faceA#77
+    3300400: Ergotron_Arm_wire.apf:faceA#78
+    3300402: Ergotron_Arm_wire.apf:faceA#79
+    3300404: Ergotron_Arm_wire.apf:faceA#8
+    3300406: Ergotron_Arm_wire.apf:faceA#80
+    3300408: Ergotron_Arm_wire.apf:faceA#81
+    3300410: Ergotron_Arm_wire.apf:faceA#82
+    3300412: Ergotron_Arm_wire.apf:faceA#83
+    3300414: Ergotron_Arm_wire.apf:faceA#84
+    3300416: Ergotron_Arm_wire.apf:faceA#85
+    3300418: Ergotron_Arm_wire.apf:faceA#86
+    3300420: Ergotron_Arm_wire.apf:faceA#87
+    3300422: Ergotron_Arm_wire.apf:faceA#88
+    3300424: Ergotron_Arm_wire.apf:faceA#89
+    3300426: Ergotron_Arm_wire.apf:faceA#9
+    3300428: Ergotron_Arm_wire.apf:faceA#90
+    3300430: Ergotron_Arm_wire.apf:faceA#91
+    3300432: Ergotron_Arm_wire.apf:faceA#92
+    3300434: Ergotron_Arm_wire.apf:faceA#93
+    3300436: Ergotron_Arm_wire.apf:faceA#94
+    3300438: Ergotron_Arm_wire.apf:faceA#95
+    3300440: Ergotron_Arm_wire.apf:fillet_piece#5
+    3300442: Ergotron_Arm_wire.apf:fillet_srf#2
+    3300444: Ergotron_Arm_wire.apf:fillet_srf#4
+    3300446: Ergotron_Arm_wire.apf:fillet_srf#5
+    3300448: Ergotron_Arm_wire.apf:fillet_srf#7
+    3300450: Ergotron_Arm_wire.apf:skin#10
+    3300452: Ergotron_Arm_wire.apf:skin#15
+    3300454: Ergotron_Arm_wire.apf:sphere#10
+    3300456: Ergotron_Arm_wire.apf:sphere#11
+    3300458: Ergotron_Arm_wire.apf:sphere#13
+    3300460: Ergotron_Arm_wire.apf:sphere#14
+    3300462: Ergotron_Arm_wire.apf:sphere#15
+    3300464: Ergotron_Arm_wire.apf:sphere#2
+    3300466: Ergotron_Arm_wire.apf:sphere#3
+    3300468: Ergotron_Arm_wire.apf:trim_surface
+    3300470: from_gurney.a3s::base_STL.apf:base
+    3300472: 'from_gurney.a3s::topFrame_STL '
+    3300474: from_gurney.a3s::wheel_STL.apf:wheel
+    3300476: front_logo
+    3300478: handles
+    3300480: handles bar
+    3300482: Plane001
+    3300484: plate_ipt.apf:plate_ipt.apf-mesh[1]
+    3300486: port cover_ipt.apf:port cover_ipt.apf-mesh[5]
+    3300488: port cover_ipt.apf:port cover_ipt.apf-mesh[6]
+    3300490: port cover_ipt.apf:port cover_ipt.apf-mesh[7]
+    3300492: PowerSwitch_wire.apf:capA#2
+    3300494: PowerSwitch_wire.apf:cyl_body#5
+    3300496: PowerSwitch_wire.apf:cyl_body#6
+    3300498: PowerSwitch_wire.apf:cyl_body#7
+    3300500: PowerSwitch_wire.apf:cyl_body#8
+    3300502: PowerSwitch_wire.apf:fillet_srf#2
+    3300504: PowerSwitch_wire.apf:fillet_srf#7
+    3300506: PowerSwitch_wire.apf:fillet_srf#8
+    3300508: rivet_ipt.apf:rivet_ipt.apf-mesh[25]
+    3300510: rivet_ipt.apf:rivet_ipt.apf-mesh[26]
+    3300512: side bars
+    3300514: top of base
+    3300516: wheel_STL.apf:wheel[0]-MIRRORED
+    3300518: wheel_STL.apf:wheel[1]-MIRRORED
+    3300520: wheel_STL.apf:wheel[2]-MIRRORED
+    4300000: 'Baramed1_iam '
+    4300002: 'Baramed1_iam '
+    4300004: 'Baramed1_iam '
+    4300006: 'Baramed1_iam '
+    4300008: 'Baramed1_iam '
+    4300010: Baramed_Assem_Shroud_WideBase_iam.apf:-L-20
+    4300012: Baramed_Assem_Shroud_WideBase_iam.apf:-L-18
+    4300014: Baramed_Assem_Shroud_WideBase_iam.apf:Base2:1_BODY-mesh
+    4300016: 'Baramed1_iam '
+    4300018: 'Baramed1_iam '
+    4300020: Ergotron_Arm_wire.apf:capB#11
+    4300022: Ergotron_Arm_wire.apf:capA#11
+    4300024: Ergotron_Arm_wire.apf:capB#14
+    4300026: Ergotron_Arm_wire.apf:fillet_srf#7
+    4300028: Ergotron_Arm_wire.apf:fillet_srf#5
+    4300030: Ergotron_Arm_wire.apf:faceA#5
+    4300032: Ergotron_Arm_wire.apf:faceA#4
+    4300034: Ergotron_Arm_wire.apf:cyl_body#8
+    4300036: Ergotron_Arm_wire.apf:cyl_body#9
+    4300038: Ergotron_Arm_wire.apf:faceA#123
+    4300040: Ergotron_Arm_wire.apf:faceA#2
+    4300042: Ergotron_Arm_wire.apf:faceA#3
+    4300044: Ergotron_Arm_wire.apf:fillet_piece#5
+    4300046: Ergotron_Arm_wire.apf:faceA#121
+    4300048: PowerSwitch_wire.apf:cyl_body#8
+    4300050: PowerSwitch_wire.apf:cyl_body#7
+    4300052: PowerSwitch_wire.apf:cyl_body#6
+    4300054: PowerSwitch_wire.apf:cyl_body#5
+    4300056: PowerSwitch_wire.apf:capA#2
+    4300058: rivet_ipt.apf:rivet_ipt.apf-mesh[25]
+    4300060: EntertainmentPiece_ipt.apf:-L-9
+    4300062: EntertainmentPiece_ipt.apf:-L-8
+    4300064: EntertainmentPiece_ipt.apf:-L-7
+    4300066: EntertainmentPiece_ipt.apf:-L-6
+    4300068: EntertainmentPiece_ipt.apf:-L-5
+    4300070: EntertainmentPiece_ipt.apf:-L-3
+    4300072: EntertainmentPiece_ipt.apf:-L-2
+    4300074: EntertainmentPiece_ipt.apf:-L-1
+    4300076: EntertainmentPiece_ipt.apf:EntertainmentPiece_BODY-mesh
+    4300078: PowerSwitch_wire.apf:fillet_srf#2
+    4300080: PowerSwitch_wire.apf:fillet_srf#7
+    4300082: PowerSwitch_wire.apf:fillet_srf#8
+    4300084: rivet_ipt.apf:rivet_ipt.apf-mesh[26]
+    4300086: Ergotron_Arm_wire.apf:fillet_srf#2
+    4300088: Ergotron_Arm_wire.apf:fillet_srf#4
+    4300090: Ergotron_Arm_wire.apf:sphere#2
+    4300092: Ergotron_Arm_wire.apf:sphere#3
+    4300094: Ergotron_Arm_wire.apf:skin#10
+    4300096: Ergotron_Arm_wire.apf:skin#15
+    4300098: Ergotron_Arm_wire.apf:trim_surface
+    4300100: Ergotron_Arm_wire.apf:sphere#10
+    4300102: Ergotron_Arm_wire.apf:sphere#11
+    4300104: Ergotron_Arm_wire.apf:sphere#13
+    4300106: Ergotron_Arm_wire.apf:sphere#15
+    4300108: Ergotron_Arm_wire.apf:sphere#14
+    4300110: 'Baramed1_iam '
+    4300112: EntertainmentPiece_ipt.apf:-L-4
+    4300114: 'Baramed1_iam '
+    4300116: 'Baramed1_iam '
+    4300118: 'Comm Panel_ipt '
+    4300120: 'Baramed1_iam '
+    4300122: 'Comm Panel_ipt '
+    4300124: 'Comm Panel_ipt '
+    4300126: 'Comm Panel_ipt '
+    4300128: Emergency handle_ipt.apf:-L-1[1]
+    4300130: 'Comm Panel_ipt '
+    4300132: 'Baramed1_iam '
+    4300134: 'Comm Panel_ipt '
+    4300136: plate_ipt.apf:plate_ipt.apf-mesh[1]
+    4300138: 'Baramed1_iam '
+    4300140: 'Comm Panel_ipt '
+    4300142: 'Baramed1_iam '
+    4300144: 'Comm Panel_ipt '
+    4300146: 'Baramed1_iam '
+    4300148: 'Comm Panel_ipt '
+    4300150: 'Comm Panel_ipt '
+    4300152: 'Baramed1_iam '
+    4300154: 'Baramed1_iam '
+    4300156: 'Comm Panel_ipt '
+    4300158: 'Baramed1_iam '
+    4300160: 'Comm Panel_ipt '
+    4300162: 'Baramed1_iam '
+    4300164: 'Comm Panel_ipt '
+    4300166: 'Baramed1_iam '
+    4300168: 'Baramed1_iam '
+    4300170: 'Baramed1_iam '
+    4300172: 'Comm Panel_ipt '
+    4300174: 'Baramed1_iam '
+    4300176: 'Comm Panel_ipt '
+    4300178: 'Baramed1_iam '
+    4300180: Emergency handle_ipt.apf:Emergency handle_BODY-mesh[1]
+    4300182: 'Baramed1_iam '
+    4300184: 'Comm Panel_ipt '
+    4300186: 'Baramed1_iam '
+    4300188: 'Baramed1_iam '
+    4300190: 'Comm Panel_ipt '
+    4300192: 'Comm Panel_ipt '
+    4300194: 'Comm Panel_ipt '
+    4300196: 'Baramed1_iam '
+    4300198: 'Comm Panel_ipt '
+    4300200: 'Baramed1_iam '
+    4300202: 'Baramed1_iam '
+    4300204: 'Comm Panel_ipt '
+    4300206: 'Comm Panel_ipt '
+    4300208: 'Comm Panel_ipt '
+    4300210: 'Comm Panel_ipt '
+    4300212: 'Comm Panel_ipt '
+    4300214: 'Comm Panel_ipt '
+    4300216: front_logo
+    4300218: top of base
+    4300220: Ergotron_Arm_wire.apf:faceA#14
+    4300222: Ergotron_Arm_wire.apf:faceA#18
+    4300224: Ergotron_Arm_wire.apf:faceA#13
+    4300226: Ergotron_Arm_wire.apf:faceA#19
+    4300228: Ergotron_Arm_wire.apf:faceA#20
+    4300230: Ergotron_Arm_wire.apf:faceA#22
+    4300232: Ergotron_Arm_wire.apf:faceA#23
+    4300234: Ergotron_Arm_wire.apf:faceA#24
+    4300236: Ergotron_Arm_wire.apf:faceA#25
+    4300238: Ergotron_Arm_wire.apf:faceA#26
+    4300240: Ergotron_Arm_wire.apf:faceA#49
+    4300242: Ergotron_Arm_wire.apf:faceA#28
+    4300244: Ergotron_Arm_wire.apf:faceA#29
+    4300246: Ergotron_Arm_wire.apf:faceA#50
+    4300248: Ergotron_Arm_wire.apf:faceA#51
+    4300250: Ergotron_Arm_wire.apf:faceA#21
+    4300252: Ergotron_Arm_wire.apf:faceA#52
+    4300254: Ergotron_Arm_wire.apf:faceA#53
+    4300256: Ergotron_Arm_wire.apf:faceA#54
+    4300258: Ergotron_Arm_wire.apf:faceA#55
+    4300260: Ergotron_Arm_wire.apf:faceA#35
+    4300262: Ergotron_Arm_wire.apf:faceA#36
+    4300264: Ergotron_Arm_wire.apf:faceA#37
+    4300266: Ergotron_Arm_wire.apf:faceA#38
+    4300268: Ergotron_Arm_wire.apf:faceA#39
+    4300270: Ergotron_Arm_wire.apf:faceA#40
+    4300272: Ergotron_Arm_wire.apf:faceA#30
+    4300274: Ergotron_Arm_wire.apf:faceA#48
+    4300276: Ergotron_Arm_wire.apf:faceA#91
+    4300278: Ergotron_Arm_wire.apf:faceA#90
+    4300280: Ergotron_Arm_wire.apf:faceA#89
+    4300282: Ergotron_Arm_wire.apf:faceA#88
+    4300284: Ergotron_Arm_wire.apf:faceA#87
+    4300286: Ergotron_Arm_wire.apf:faceA#86
+    4300288: Ergotron_Arm_wire.apf:faceA#85
+    4300290: Ergotron_Arm_wire.apf:faceA#84
+    4300292: Ergotron_Arm_wire.apf:faceA#83
+    4300294: Ergotron_Arm_wire.apf:faceA#82
+    4300296: Ergotron_Arm_wire.apf:faceA#81
+    4300298: Ergotron_Arm_wire.apf:faceA#102
+    4300300: Ergotron_Arm_wire.apf:faceA#101
+    4300302: Ergotron_Arm_wire.apf:faceA#100
+    4300304: Ergotron_Arm_wire.apf:faceA#120
+    4300306: Ergotron_Arm_wire.apf:faceA#95
+    4300308: Ergotron_Arm_wire.apf:faceA#94
+    4300310: Ergotron_Arm_wire.apf:faceA#93
+    4300312: Ergotron_Arm_wire.apf:faceA#92
+    4300314: Ergotron_Arm_wire.apf:faceA#78
+    4300316: Ergotron_Arm_wire.apf:faceA#77
+    4300318: Ergotron_Arm_wire.apf:faceA#76
+    4300320: Ergotron_Arm_wire.apf:faceA#75
+    4300322: Ergotron_Arm_wire.apf:faceA#74
+    4300324: Ergotron_Arm_wire.apf:faceA#73
+    4300326: Ergotron_Arm_wire.apf:faceA#72
+    4300328: Ergotron_Arm_wire.apf:faceA#71
+    4300330: Ergotron_Arm_wire.apf:faceA#70
+    4300332: Ergotron_Arm_wire.apf:faceA#68
+    4300334: Ergotron_Arm_wire.apf:faceA#67
+    4300336: Ergotron_Arm_wire.apf:faceA#69
+    4300338: Ergotron_Arm_wire.apf:faceA#108
+    4300340: Ergotron_Arm_wire.apf:faceA#107
+    4300342: Ergotron_Arm_wire.apf:faceA#106
+    4300344: Ergotron_Arm_wire.apf:faceA#105
+    4300346: Ergotron_Arm_wire.apf:faceA#104
+    4300348: Ergotron_Arm_wire.apf:faceA#103
+    4300350: Ergotron_Arm_wire.apf:faceA#9
+    4300352: Ergotron_Arm_wire.apf:faceA#8
+    4300354: Ergotron_Arm_wire.apf:faceA#17
+    4300356: Ergotron_Arm_wire.apf:faceA#16
+    4300358: Ergotron_Arm_wire.apf:faceA#15
+    4300360: Ergotron_Arm_wire.apf:faceA#7
+    4300362: Ergotron_Arm_wire.apf:faceA#80
+    4300364: Ergotron_Arm_wire.apf:faceA#12
+    4300366: Ergotron_Arm_wire.apf:faceA#11
+    4300368: Ergotron_Arm_wire.apf:faceA#10
+    4300370: Ergotron_Arm_wire.apf:faceA#119
+    4300372: Ergotron_Arm_wire.apf:faceA#118
+    4300374: Ergotron_Arm_wire.apf:faceA#117
+    4300376: Ergotron_Arm_wire.apf:faceA#116
+    4300378: Ergotron_Arm_wire.apf:faceA#115
+    4300380: Ergotron_Arm_wire.apf:faceA#114
+    4300382: Ergotron_Arm_wire.apf:faceA#113
+    4300384: Ergotron_Arm_wire.apf:faceA#112
+    4300386: Ergotron_Arm_wire.apf:faceA#111
+    4300388: Ergotron_Arm_wire.apf:faceA#110
+    4300390: Ergotron_Arm_wire.apf:faceA#109
+    4300392: Ergotron_Arm_wire.apf:faceA#79
+    4300394: Ergotron_Arm_wire.apf:faceA#64
+    4300396: Ergotron_Arm_wire.apf:faceA#63
+    4300398: Ergotron_Arm_wire.apf:faceA#62
+    4300400: Ergotron_Arm_wire.apf:faceA#61
+    4300402: Ergotron_Arm_wire.apf:faceA#60
+    4300404: Ergotron_Arm_wire.apf:faceA#59
+    4300406: Ergotron_Arm_wire.apf:faceA#58
+    4300408: Ergotron_Arm_wire.apf:faceA#57
+    4300410: Ergotron_Arm_wire.apf:faceA#56
+    4300412: Ergotron_Arm_wire.apf:faceA#43
+    4300414: Ergotron_Arm_wire.apf:faceA#44
+    4300416: Ergotron_Arm_wire.apf:faceA#45
+    4300418: Ergotron_Arm_wire.apf:faceA#46
+    4300420: Ergotron_Arm_wire.apf:faceA#42
+    4300422: Ergotron_Arm_wire.apf:faceA#47
+    4300424: Ergotron_Arm_wire.apf:faceA#34
+    4300426: Ergotron_Arm_wire.apf:faceA#33
+    4300428: Ergotron_Arm_wire.apf:faceA#32
+    4300430: ChamferBox01
+    4300432: side bars
+    4300434: bars
+    4300436: 'from_gurney.a3s::topFrame_STL '
+    4300438: boltz
+    4300440: bottom bar
+    4300442: handles
+    4300444: handles bar
+    4300446: Cylinder001
+    4300448: Cylinder002
+    4300450: wheel_STL.apf:wheel[0]-MIRRORED
+    4300452: ChamferCyl04
+    4300454: wheel_STL.apf:wheel[1]-MIRRORED
+    4300456: ChamferCyl03
+    4300458: ChamferCyl01
+    4300460: from_gurney.a3s::wheel_STL.apf:wheel
+    4300462: ChamferCyl02
+    4300464: wheel_STL.apf:wheel[2]-MIRRORED
+    4300466: from_gurney.a3s::base_STL.apf:base
+    4300468: Box001
+    4300470: Box002
+    4300472: Box004
+    4300474: Box003
+    4300476: Baramed_Assem_Shroud_WideBase_iam.apf:29-mesh
+    4300478: Baramed_Assem_Shroud_WideBase_iam.apf:-L-19
+    4300480: Baramed_Assem_Shroud_WideBase_iam.apf:-L-21
+    4300482: Baramed_Assem_Shroud_WideBase_iam.apf:-L-22
+    4300484: 'Baramed1_iam '
+    4300486: port cover_ipt.apf:port cover_ipt.apf-mesh[6]
+    4300488: bolt1_ipt.apf:bolt1_ipt.apf-mesh[15]
+    4300490: bolt1_ipt.apf:bolt1_ipt.apf-mesh[12]
+    4300492: port cover_ipt.apf:port cover_ipt.apf-mesh[5]
+    4300494: bolt1_ipt.apf:bolt1_ipt.apf-mesh[13]
+    4300496: bolt1_ipt.apf:bolt1_ipt.apf-mesh[14]
+    4300498: port cover_ipt.apf:port cover_ipt.apf-mesh[7]
+    4300500: 'Baramed1_iam '
+    4300502: 'Baramed1_iam '
+    4300504: 'Baramed1_iam '
+    4300506: 'Baramed1_iam '
+    4300508: 'Baramed1_iam '
+    4300510: 'Baramed1_iam '
+    4300512: 'Baramed1_iam '
+    4300514: 'Baramed1_iam '
+    4300516: 'Baramed1_iam '
+    4300518: Plane001
+    4300520: Cylinder003
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 448
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder003
+        weight: 1
+      - path: Group007
+        weight: 1
+      - path: 'Group007/Baramed1_iam '
+        weight: 1
+      - path: Group007/Baramed1_iam  1
+        weight: 1
+      - path: Group007/Baramed1_iam  2
+        weight: 1
+      - path: Group007/Baramed1_iam  3
+        weight: 1
+      - path: Group007/Baramed1_iam  4
+        weight: 1
+      - path: Group007/Baramed1_iam  5
+        weight: 1
+      - path: Group007/Baramed1_iam  6
+        weight: 1
+      - path: Group007/Baramed1_iam  7
+        weight: 1
+      - path: Group007/Baramed1_iam  8
+        weight: 1
+      - path: Group007/Baramed1_iam  9
+        weight: 1
+      - path: Group007/Baramed1_iam  10
+        weight: 1
+      - path: Group007/Baramed1_iam  11
+        weight: 1
+      - path: Group007/Baramed1_iam  12
+        weight: 1
+      - path: Group007/Baramed1_iam  13
+        weight: 1
+      - path: Group007/Baramed1_iam  14
+        weight: 1
+      - path: Group007/Baramed1_iam  15
+        weight: 1
+      - path: Group007/Baramed1_iam  16
+        weight: 1
+      - path: Group007/Baramed1_iam  17
+        weight: 1
+      - path: Group007/Baramed1_iam  18
+        weight: 1
+      - path: Group007/Baramed1_iam  19
+        weight: 1
+      - path: Group007/Baramed1_iam  20
+        weight: 1
+      - path: Group007/Baramed1_iam  21
+        weight: 1
+      - path: Group007/Baramed1_iam  22
+        weight: 1
+      - path: Group007/Baramed1_iam  23
+        weight: 1
+      - path: Group007/Baramed1_iam  24
+        weight: 1
+      - path: Group007/Baramed1_iam  25
+        weight: 1
+      - path: Group007/Baramed1_iam  26
+        weight: 1
+      - path: Group007/Baramed1_iam  27
+        weight: 1
+      - path: Group007/Baramed1_iam  28
+        weight: 1
+      - path: Group007/Baramed1_iam  29
+        weight: 1
+      - path: Group007/Baramed_Assem_Shroud_WideBase_iam.apf:-L-18
+        weight: 1
+      - path: Group007/Baramed_Assem_Shroud_WideBase_iam.apf:-L-19
+        weight: 1
+      - path: Group007/Baramed_Assem_Shroud_WideBase_iam.apf:-L-20
+        weight: 1
+      - path: Group007/Baramed_Assem_Shroud_WideBase_iam.apf:-L-21
+        weight: 1
+      - path: Group007/Baramed_Assem_Shroud_WideBase_iam.apf:-L-22
+        weight: 1
+      - path: Group007/Baramed_Assem_Shroud_WideBase_iam.apf:29-mesh
+        weight: 1
+      - path: Group007/Baramed_Assem_Shroud_WideBase_iam.apf:Base2:1_BODY-mesh
+        weight: 1
+      - path: Group007/Box001
+        weight: 1
+      - path: Group007/Box002
+        weight: 1
+      - path: Group007/ChamferBox01
+        weight: 1
+      - path: 'Group007/Comm Panel_ipt '
+        weight: 1
+      - path: Group007/Comm Panel_ipt  1
+        weight: 1
+      - path: Group007/Comm Panel_ipt  2
+        weight: 1
+      - path: Group007/Comm Panel_ipt  3
+        weight: 1
+      - path: Group007/Comm Panel_ipt  4
+        weight: 1
+      - path: Group007/Comm Panel_ipt  5
+        weight: 1
+      - path: Group007/Comm Panel_ipt  6
+        weight: 1
+      - path: Group007/Comm Panel_ipt  7
+        weight: 1
+      - path: Group007/Comm Panel_ipt  8
+        weight: 1
+      - path: Group007/Comm Panel_ipt  9
+        weight: 1
+      - path: Group007/Comm Panel_ipt  10
+        weight: 1
+      - path: Group007/Comm Panel_ipt  11
+        weight: 1
+      - path: Group007/Comm Panel_ipt  12
+        weight: 1
+      - path: Group007/Comm Panel_ipt  13
+        weight: 1
+      - path: Group007/Comm Panel_ipt  14
+        weight: 1
+      - path: Group007/Comm Panel_ipt  15
+        weight: 1
+      - path: Group007/Comm Panel_ipt  16
+        weight: 1
+      - path: Group007/Comm Panel_ipt  17
+        weight: 1
+      - path: Group007/Comm Panel_ipt  18
+        weight: 1
+      - path: Group007/Comm Panel_ipt  19
+        weight: 1
+      - path: Group007/Comm Panel_ipt  20
+        weight: 1
+      - path: Group007/Comm Panel_ipt  21
+        weight: 1
+      - path: Group007/Comm Panel_ipt  22
+        weight: 1
+      - path: Group007/Comm Panel_ipt  23
+        weight: 1
+      - path: Group007/Comm Panel_ipt  24
+        weight: 1
+      - path: Group007/Comm Panel_ipt  25
+        weight: 1
+      - path: Group007/Dummy01
+        weight: 1
+      - path: Group007/Dummy01/Group001
+        weight: 1
+      - path: Group007/Dummy01/Group001/bars
+        weight: 1
+      - path: Group007/Dummy01/Group001/boltz
+        weight: 1
+      - path: Group007/Dummy01/Group001/bottom bar
+        weight: 1
+      - path: Group007/Dummy01/Group001/Cylinder001
+        weight: 1
+      - path: Group007/Dummy01/Group001/Cylinder002
+        weight: 1
+      - path: 'Group007/Dummy01/Group001/from_gurney.a3s::topFrame_STL '
+        weight: 1
+      - path: Group007/Dummy01/Group001/handles
+        weight: 1
+      - path: Group007/Dummy01/Group001/handles bar
+        weight: 1
+      - path: Group007/Dummy01/Group001/side bars
+        weight: 1
+      - path: Group007/Dummy01/Group002
+        weight: 1
+      - path: Group007/Dummy01/Group002/ChamferCyl01
+        weight: 1
+      - path: Group007/Dummy01/Group002/ChamferCyl02
+        weight: 1
+      - path: Group007/Dummy01/Group002/ChamferCyl03
+        weight: 1
+      - path: Group007/Dummy01/Group002/ChamferCyl04
+        weight: 1
+      - path: Group007/Dummy01/Group002/from_gurney.a3s::base_STL.apf:base
+        weight: 1
+      - path: Group007/Dummy01/Group002/from_gurney.a3s::wheel_STL.apf:wheel
+        weight: 1
+      - path: Group007/Dummy01/Group002/wheel_STL.apf:wheel[0]-MIRRORED
+        weight: 1
+      - path: Group007/Dummy01/Group002/wheel_STL.apf:wheel[1]-MIRRORED
+        weight: 1
+      - path: Group007/Dummy01/Group002/wheel_STL.apf:wheel[2]-MIRRORED
+        weight: 1
+      - path: Group007/Emergency handle_ipt.apf:-L-1[1]
+        weight: 1
+      - path: Group007/Emergency handle_ipt.apf:Emergency handle_BODY-mesh[1]
+        weight: 1
+      - path: Group007/EntertainmentPiece_ipt.apf:-L-1
+        weight: 1
+      - path: Group007/EntertainmentPiece_ipt.apf:-L-2
+        weight: 1
+      - path: Group007/EntertainmentPiece_ipt.apf:-L-3
+        weight: 1
+      - path: Group007/EntertainmentPiece_ipt.apf:-L-4
+        weight: 1
+      - path: Group007/EntertainmentPiece_ipt.apf:-L-5
+        weight: 1
+      - path: Group007/EntertainmentPiece_ipt.apf:-L-6
+        weight: 1
+      - path: Group007/EntertainmentPiece_ipt.apf:-L-7
+        weight: 1
+      - path: Group007/EntertainmentPiece_ipt.apf:-L-8
+        weight: 1
+      - path: Group007/EntertainmentPiece_ipt.apf:-L-9
+        weight: 1
+      - path: Group007/EntertainmentPiece_ipt.apf:EntertainmentPiece_BODY-mesh
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:capA#11
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:capB#11
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:capB#14
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:cyl_body#8
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:cyl_body#9
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:faceA#2
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:faceA#3
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:faceA#4
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:faceA#5
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:faceA#121
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:faceA#123
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:fillet_piece#5
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:fillet_srf#2
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:fillet_srf#4
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:fillet_srf#5
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:fillet_srf#7
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:skin#10
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:skin#15
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:sphere#2
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:sphere#3
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:sphere#10
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:sphere#11
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:sphere#13
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:sphere#14
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:sphere#15
+        weight: 1
+      - path: Group007/Ergotron_Arm_wire.apf:trim_surface
+        weight: 1
+      - path: Group007/front_logo
+        weight: 1
+      - path: Group007/Group004
+        weight: 1
+      - path: Group007/Group004/Baramed1_iam  30
+        weight: 1
+      - path: Group007/Group004/bolt1_ipt.apf:bolt1_ipt.apf-mesh[12]
+        weight: 1
+      - path: Group007/Group004/bolt1_ipt.apf:bolt1_ipt.apf-mesh[13]
+        weight: 1
+      - path: Group007/Group004/bolt1_ipt.apf:bolt1_ipt.apf-mesh[14]
+        weight: 1
+      - path: Group007/Group004/bolt1_ipt.apf:bolt1_ipt.apf-mesh[15]
+        weight: 1
+      - path: Group007/Group004/port cover_ipt.apf:port cover_ipt.apf-mesh[5]
+        weight: 1
+      - path: Group007/Group004/port cover_ipt.apf:port cover_ipt.apf-mesh[6]
+        weight: 1
+      - path: Group007/Group004/port cover_ipt.apf:port cover_ipt.apf-mesh[7]
+        weight: 1
+      - path: Group007/Group005
+        weight: 1
+      - path: Group007/Group005/Box003
+        weight: 1
+      - path: Group007/Group005/Box004
+        weight: 1
+      - path: Group007/Group006
+        weight: 1
+      - path: Group007/Group006/Baramed1_iam  31
+        weight: 1
+      - path: Group007/Group006/Baramed1_iam  32
+        weight: 1
+      - path: Group007/Group006/Group003
+        weight: 1
+      - path: Group007/Group006/Group003/Baramed1_iam  33
+        weight: 1
+      - path: Group007/Group006/Group003/Baramed1_iam  34
+        weight: 1
+      - path: Group007/Group006/Group003/Baramed1_iam  35
+        weight: 1
+      - path: Group007/Group006/Group003/Baramed1_iam  36
+        weight: 1
+      - path: Group007/Group006/Group003/Baramed1_iam  37
+        weight: 1
+      - path: Group007/Group006/Group003/Baramed1_iam  38
+        weight: 1
+      - path: Group007/Group006/Group003/Baramed1_iam  39
+        weight: 1
+      - path: Group007/keys
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#7
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#8
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#9
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#10
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#11
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#12
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#13
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#14
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#15
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#16
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#17
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#18
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#19
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#20
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#21
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#22
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#23
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#24
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#25
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#26
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#28
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#29
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#30
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#32
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#33
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#34
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#35
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#36
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#37
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#38
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#39
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#40
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#42
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#43
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#44
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#45
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#46
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#47
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#48
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#49
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#50
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#51
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#52
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#53
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#54
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#55
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#56
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#57
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#58
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#59
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#60
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#61
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#62
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#63
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#64
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#67
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#68
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#69
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#70
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#71
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#72
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#73
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#74
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#75
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#76
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#77
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#78
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#79
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#80
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#81
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#82
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#83
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#84
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#85
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#86
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#87
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#88
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#89
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#90
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#91
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#92
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#93
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#94
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#95
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#100
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#101
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#102
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#103
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#104
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#105
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#106
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#107
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#108
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#109
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#110
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#111
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#112
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#113
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#114
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#115
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#116
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#117
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#118
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#119
+        weight: 1
+      - path: Group007/keys/Ergotron_Arm_wire.apf:faceA#120
+        weight: 1
+      - path: Group007/plate_ipt.apf:plate_ipt.apf-mesh[1]
+        weight: 1
+      - path: Group007/PowerSwitch_wire.apf:capA#2
+        weight: 1
+      - path: Group007/PowerSwitch_wire.apf:cyl_body#5
+        weight: 1
+      - path: Group007/PowerSwitch_wire.apf:cyl_body#6
+        weight: 1
+      - path: Group007/PowerSwitch_wire.apf:cyl_body#7
+        weight: 1
+      - path: Group007/PowerSwitch_wire.apf:cyl_body#8
+        weight: 1
+      - path: Group007/PowerSwitch_wire.apf:fillet_srf#2
+        weight: 1
+      - path: Group007/PowerSwitch_wire.apf:fillet_srf#7
+        weight: 1
+      - path: Group007/PowerSwitch_wire.apf:fillet_srf#8
+        weight: 1
+      - path: Group007/rivet_ipt.apf:rivet_ipt.apf-mesh[25]
+        weight: 1
+      - path: Group007/rivet_ipt.apf:rivet_ipt.apf-mesh[26]
+        weight: 1
+      - path: Group007/top of base
+        weight: 1
+      - path: Plane001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
