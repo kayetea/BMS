@@ -2,26 +2,20 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class EditorGrid : MonoBehaviour {
+public class EditorGridRows: MonoBehaviour {
 
-	private Text[] textRowArray;
+	public Text[] textColArray = new Text[7];
 	
 
 	// Use this for initialization
 	void Start () {
+		int i = 0;
 		foreach (Transform child in this.transform) {
 			//reset each text element
-			Debug.Log (child.GetComponentInChildren<Text>().text);
 			child.GetComponentInChildren<Text>().text = null;
 
-			//textRowArray[].add
-			//child.GetComponentInChildren<Text>().text;
-
+			textColArray[i] = child.GetComponentInChildren<Text>();
+			i++;
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }
