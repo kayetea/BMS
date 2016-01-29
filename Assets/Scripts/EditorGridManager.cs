@@ -11,8 +11,6 @@ public class EditorGridManager: MonoBehaviour {
 	public Text timeText;
 	public Text flowRateText;
 	public Text printIntText;
-
-	public GameObject blockSeg;
 	
 
 	// Use this for initialization
@@ -48,7 +46,7 @@ public class EditorGridManager: MonoBehaviour {
 		temp.textColArray[1].text = rowArray[currentRow-1].GetComponent<EditorGridRows>().textColArray[2].text; //start pressure is last row's end pressure
 		temp.textColArray[2].text = endPressureText.text;
 		temp.textColArray[3].text = "False";
-		temp.textColArray[4].text = timeText.text;
+		temp.textColArray[4].text = "10"; //always starts at 10
 		temp.textColArray[5].text = flowRateText.text;
 		temp.textColArray[6].text = printIntText.text;
 
@@ -59,7 +57,34 @@ public class EditorGridManager: MonoBehaviour {
 	public void NewSegment(){
 		if (currentRow > 0)
 		{
-			blockSeg.SetActive(true);
+			GameObject segContainer = GameObject.Find ("Canvas/Editor/Grid-Img/SegmentContainer");
+
+			//add new block, set as child of segmentcontainer
+			GameObject block = Instantiate(Resources.Load ("BlockSegment-Panel") as GameObject);
+			block.transform.SetParent(segContainer.transform, false);
+
+			//temp variables
+			RectTransform blockRect = block.GetComponent<RectTransform>(); 
+			int childCount = segContainer.transform.childCount;
+			RectTransform prevChildRect = segContainer.transform.GetChild(childCount-2).GetComponent<RectTransform>();
+
+
+			blockRect.sizeDelta = new Vector2 (blockRect.sizeDelta.x, prevChildRect.sizeDelta.y);
+			Vector2 tempPos = new Vector2(prevChildRect.localPosition.x + prevChildRect.sizeDelta.x, prevChildRect.localPosition.y); 
+			blockRect.localPosition = tempPos;
+
+			EditorModifiers[] editorModScripts = FindObjectsOfType(typeof(EditorModifiers)) as EditorModifiers[];
+			foreach (EditorModifiers editorModScript in editorModScripts)
+			{
+				editorModScript.NewSegment(blockRect);
+			}
+
+			//turn on airbreak option
+			if(currentRow == 1)
+			{
+				GameObject.Find ("Canvas/Editor/RightInfo-Panel/AirBreak-Btn").GetComponent<Button>().interactable = true;
+			}
+
 		}
 	}
 }
