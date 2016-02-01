@@ -13,17 +13,15 @@ public class PlayVideo : MonoBehaviour {
 
 	public void PlayM (){
 		Debug.Log ("play movie");
-		if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
-        {
-            Handheld.PlayFullScreenMovie(movieName, Color.black, FullScreenMovieControlMode.Full, FullScreenMovieScalingMode.AspectFit);
-			Debug.Log ("play movie");
-        }
-		else if (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WindowsPlayer && !movie.isPlaying)
-		{
-			movieTexture = this.transform.GetChild(0).gameObject;
-			movieTexture.SetActive(true);
-			movie.Play();
-		}
+/*#IF UNITY_IOS 
+		Handheld.PlayFullScreenMovie(movieName, Color.black, FullScreenMovieControlMode.Full, FullScreenMovieScalingMode.AspectFit);
+		Debug.Log ("play movie");
+#endif*/
+#if UNITY_STANDALONE
+		movieTexture = this.transform.GetChild(0).gameObject;
+		movieTexture.SetActive(true);
+		movie.Play();
+#endif
     }
 
 	public void StopMovie(){

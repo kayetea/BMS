@@ -8,6 +8,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.Diagnostics;
 
 public class Zoom : MonoBehaviour {
 	
@@ -18,6 +19,7 @@ public class Zoom : MonoBehaviour {
 	private float camMoveDuration;
 
 	public Vector3 camPos; //assign each time script is applied
+	public Transform camTrans; //assign for each
 	public string uiName; //assign in editor
 
 	private GameObject animControlsUI; //anim UI
@@ -75,13 +77,19 @@ public class Zoom : MonoBehaviour {
 			animControlsUI.SetActive(false);
 
 			//move camera
-			GameObject.Find ("zoomCamera(Clone)").GetComponent<LerpCamera>().StartLerp(camMoveDuration, camPos, mainCamera.transform.position);
+			GameObject.Find ("zoomCamera(Clone)").GetComponent<LerpCamera>().StartLerp(camMoveDuration, camPos, mainCamera.transform.position, camTrans.rotation, mainCamera.transform.rotation);
 		}
 		//~~~~ CLICKED SECOND TIME (AFTER ZOOMED) ON SCREEN* ~~~~
 		else if (uiName == "ComputerUI")// * only for computer screen	
 		{
+			//launch demo exe
+			System.Diagnostics.Process.Start (Application.dataPath + "/Demo/baramed.exe");
+
+
+			//STILL NEED TO MAKE IT SO THAT THERE IS A NEUTRAL BACKGROUND TO CLICK BACK TO
+
 			//load new screen
-			mainCamera.GetComponent<SceneLoad>().ChangeScene();
+			//mainCamera.GetComponent<SceneLoad>().ChangeScene();
 
 			/*//clicking on the screen while zoomed in, show computer screen
 			GameObject ui = Instantiate(Resources.Load("BaraPressScreen") as GameObject);
@@ -105,10 +113,10 @@ public class Zoom : MonoBehaviour {
 
 	//~~~~ ZOOM OUT TO MAIN SCREEN ~~~~
 	public void ZoomOut()
-	{	
+	{	  
 		//move camera
 		GameObject zoomCamClone = GameObject.Find ("zoomCamera(Clone)");
-		zoomCamClone.GetComponent<LerpCamera>().StartLerp(2, mainCamera.transform.position, camPos);
+		zoomCamClone.GetComponent<LerpCamera>().StartLerp(2, mainCamera.transform.position, camPos, mainCamera.transform.rotation, camTrans.rotation);
 		StartCoroutine(ResetMainScreen(zoomCamClone, 2));
 
 	}
