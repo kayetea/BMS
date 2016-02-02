@@ -24,6 +24,7 @@ public class Zoom : MonoBehaviour {
 
 	private GameObject animControlsUI; //anim UI
 	private GameObject canvasTemp;
+	private Animator gurneyAnim;
 
 	// Use this for initialization
 	void Start () {
@@ -33,6 +34,7 @@ public class Zoom : MonoBehaviour {
 		mainCamera = GameObject.Find ("Main Camera").GetComponent<Camera>();
 		animControlsUI = GameObject.Find("AnimationPanel");
 		canvasTemp = GameObject.Find ("Canvas/Temp");
+		gurneyAnim = GameObject.Find("Cylinder/baramed_select").GetComponent<Animator>();
 	}
 	
 	//~~~~ ACTIVATES WHEN BOX COLLIDER CLICKED ~~~~
@@ -78,6 +80,7 @@ public class Zoom : MonoBehaviour {
 
 			//move camera
 			GameObject.Find ("zoomCamera(Clone)").GetComponent<LerpCamera>().StartLerp(camMoveDuration, camPos, mainCamera.transform.position, camTrans.rotation, mainCamera.transform.rotation);
+
 		}
 		//~~~~ CLICKED SECOND TIME (AFTER ZOOMED) ON SCREEN* ~~~~
 		else if (uiName == "ComputerUI")// * only for computer screen	
@@ -85,16 +88,8 @@ public class Zoom : MonoBehaviour {
 			//launch demo exe
 			System.Diagnostics.Process.Start (Application.dataPath + "/Demo/baramed.exe");
 
-
 			//STILL NEED TO MAKE IT SO THAT THERE IS A NEUTRAL BACKGROUND TO CLICK BACK TO
 
-			//load new screen
-			//mainCamera.GetComponent<SceneLoad>().ChangeScene();
-
-			/*//clicking on the screen while zoomed in, show computer screen
-			GameObject ui = Instantiate(Resources.Load("BaraPressScreen") as GameObject);
-			ui.transform.SetParent (canvasTemp.transform, false);
-			ui.GetComponentInChildren<Button>().onClick.AddListener(this.DestroyTemp);*/
 		}
 	}
 		 
@@ -109,8 +104,24 @@ public class Zoom : MonoBehaviour {
 		GameObject ui = Instantiate(Resources.Load (uiName) as GameObject);
 		ui.transform.SetParent(canvasTemp.transform, false);
 		ui.GetComponentInChildren<Button>().onClick.AddListener(this.ZoomOut);
-	}
 
+		//fade in graphics
+		Graphic[] graphics = ui.GetComponentsInChildren<Graphic>();
+		
+		for (int i = 0; i < graphics.Length; i++)
+		{
+			graphics[i].CrossFadeAlpha(0, 0, false); 
+			graphics[i].CrossFadeAlpha(1, .5f, false);
+		}
+
+		//if entrance, pause gurney anim
+		if(uiName == "EntranceUI")
+		{
+			gurneyAnim.Play("gurneyAnim", -1, .4f);
+			gurneyAnim.speed = 0;
+		}
+	}
+	
 	//~~~~ ZOOM OUT TO MAIN SCREEN ~~~~
 	public void ZoomOut()
 	{	  
@@ -129,8 +140,23 @@ public class Zoom : MonoBehaviour {
 		//wait for rotation anim to finish, then change to idle
 		yield return new WaitForSeconds(timeToWait);
 
+		if (gurneyAnim.speed == 0)
+		{
+			gurneyAnim.speed = 1;
+		}
+
 		//show computer controls
 		animControlsUI.SetActive(true);
+
+		//fade in
+		Graphic[] graphics2 = animControlsUI.GetComponentsInChildren<Graphic>();
+		
+		for (int i = 0; i < graphics2.Length; i++)
+		{
+			graphics2[i].CrossFadeAlpha(0, 0, false); 
+			graphics2[i].CrossFadeAlpha(1, .5f, false);
+		}
+	
 		anim.speed = 1;
 		animControlsUI.GetComponentInChildren<MediaButtonToggles>().ToggleAnimBtnImg(anim);
 
@@ -149,9 +175,9 @@ public class Zoom : MonoBehaviour {
 
 	//~~~~ REMOVE TEMP UI COMPONENTS ~~~~
 	public void DestroyTemp(){
+		int temp = canvasTemp.transform.childCount;
 
 		//remove any temp UI on the screen
-		int temp = canvasTemp.transform.childCount;
 		if(temp > 0 )
 		{
 			DestroyObject(canvasTemp.transform.GetChild(temp-1).gameObject);
