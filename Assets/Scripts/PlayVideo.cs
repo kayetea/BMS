@@ -5,10 +5,15 @@ public class PlayVideo : MonoBehaviour {
 
 	public string movieName;
 	public MovieTexture movie;
-	private GameObject movieTexture;
+	public GameObject movieTexture;
+
+	public bool autoPlay = false;
 
 	void Start (){
-	
+		if(autoPlay == true)
+		{
+			PlayM();
+		}
 	}
 
 	public void PlayM (){
@@ -17,8 +22,7 @@ public class PlayVideo : MonoBehaviour {
 		Handheld.PlayFullScreenMovie(movieName, Color.black, FullScreenMovieControlMode.Full, FullScreenMovieScalingMode.AspectFit);
 		Debug.Log ("play movie");
 #endif*/
-#if UNITY_STANDALONE
-		movieTexture = this.transform.GetChild(0).gameObject;
+#if (UNITY_STANDALONE || UNITY_EDITOR)
 		movieTexture.SetActive(true);
 		movie.Play();
 #endif

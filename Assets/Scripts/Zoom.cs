@@ -89,7 +89,9 @@ public class Zoom : MonoBehaviour {
 			System.Diagnostics.Process.Start (Application.dataPath + "/Demo/baramed.exe");
 
 			//STILL NEED TO MAKE IT SO THAT THERE IS A NEUTRAL BACKGROUND TO CLICK BACK TO
-
+			GameObject ui = Instantiate(Resources.Load ("DemoUI") as GameObject);
+			ui.transform.SetParent(canvasTemp.transform, false);
+			ui.GetComponentInChildren<Button>().onClick.AddListener(this.DestroyTemp);
 		}
 	}
 		 
@@ -165,7 +167,6 @@ public class Zoom : MonoBehaviour {
 		DestroyObject(camera);
 
 		//CHANGE ALL GLOW GREEN
-		//objMaterial.SetColor("_OutlineColor", Color.green);
 		foreach (Material mat in mainCamera.GetComponent<DrawLines>().glowMaterials)
 		{
 			mat.SetColor("_OutlineColor", Color.green);
