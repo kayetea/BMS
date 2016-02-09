@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayVideo : MonoBehaviour {
 
 	public string movieName;
-	public MovieTexture movie;
-	public GameObject movieTexture;
+	public GameObject movieObj;
+	private MovieTexture movie;
+	public GameObject movieContainer;
 
 	public bool autoPlay = false;
 
@@ -14,22 +16,27 @@ public class PlayVideo : MonoBehaviour {
 		{
 			PlayM();
 		}
+
+		movie = (MovieTexture)movieObj.GetComponent<RawImage>().texture;
 	}
 
 	public void PlayM (){
 		Debug.Log ("play movie");
-/*#IF UNITY_IOS 
+/*for IOS/ mobile
+ #IF UNITY_IOS 
 		Handheld.PlayFullScreenMovie(movieName, Color.black, FullScreenMovieControlMode.Full, FullScreenMovieScalingMode.AspectFit);
 		Debug.Log ("play movie");
 #endif*/
 #if (UNITY_STANDALONE || UNITY_EDITOR)
-		movieTexture.SetActive(true);
+		movieContainer.SetActive(true);
+		movieObj.SetActive (true);
 		movie.Play();
 #endif
     }
 
 	public void StopMovie(){
 		movie.Stop();
-		movieTexture.SetActive(false);
+		movieObj.SetActive (false);
+		movieContainer.SetActive(false);
 	}
 }
