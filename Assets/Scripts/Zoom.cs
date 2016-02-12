@@ -92,6 +92,7 @@ public class Zoom : MonoBehaviour {
 			GameObject ui = Instantiate(Resources.Load ("DemoUI") as GameObject);
 			ui.transform.SetParent(canvasTemp.transform, false);
 			ui.GetComponentInChildren<Button>().onClick.AddListener(this.DestroyTemp);
+
 		}
 	}
 		 
@@ -153,7 +154,7 @@ public class Zoom : MonoBehaviour {
 		//fade in
 		Graphic[] graphics2 = animControlsUI.GetComponentsInChildren<Graphic>();
 		
-		for (int i = 0; i < graphics2.Length; i++)
+		for (int i = 0; i < graphics2.Length; i++) 
 		{
 			graphics2[i].CrossFadeAlpha(0, 0, false); 
 			graphics2[i].CrossFadeAlpha(1, .5f, false);
