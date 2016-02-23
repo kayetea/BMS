@@ -9,7 +9,8 @@ public class DrawLines : MonoBehaviour
 	public LineRenderer lineRenderer;
 	public bool canvasElement;
 
-	public Material[] glowMaterials; 
+	public Material[] glowMaterialsGreen;
+	public Material[] glowMaterialsBlue;
 
 	void Start(){
 	}
@@ -19,17 +20,8 @@ public class DrawLines : MonoBehaviour
     {
 		if (mainPoint && secondPoint)
         {
-
 			Vector3 mainPointPos = mainPoint.transform.position;
-			if(canvasElement)
-			{
-				//mainPointPos = Camera.main.WorldToViewportPoint(mainPoint.transform.position);
-				//mainPointPos = (secondPoint.transform.position);
-			}
-
 			Vector3 pointPos = secondPoint.transform.position;
-			//Debug.Log (secondPoint.transform.TransformPoint(GetComponent<MeshFilter>().mesh.bounds.center));
-			//testCube.transform.position = secondPoint.TransformPointLocalToWorld(GetComponent<MeshFilter>().mesh.bounds.center);
 
 			lineRenderer.SetPosition(0, mainPointPos);
 			lineRenderer.SetPosition(1, pointPos);

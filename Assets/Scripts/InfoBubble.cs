@@ -5,6 +5,7 @@ public class InfoBubble : MonoBehaviour {
 
 	public string infoUI;
 	public Material objMaterial; //glow
+	public GameObject sliderHandle;
 
 	private GameObject canvasTemp;
 	private GameObject mainCamera;
@@ -13,7 +14,7 @@ public class InfoBubble : MonoBehaviour {
 		canvasTemp = GameObject.Find("Canvas/Temp");
 		mainCamera = GameObject.Find ("Main Camera");
 
-		objMaterial.SetColor("_OutlineColor", Color.green);
+		objMaterial.SetColor("_OutlineColor", Color.cyan);
 
 	}
 
@@ -33,10 +34,14 @@ public class InfoBubble : MonoBehaviour {
 
 				DestroyObject(canvasTemp.transform.GetChild(temp-1).gameObject);
 
-				//Reset all glow materials to green
-				foreach (Material mat in mainCamera.GetComponent<DrawLines>().glowMaterials)
+				//Reset all glow materials to green/blue
+				foreach (Material mat in mainCamera.GetComponent<DrawLines>().glowMaterialsGreen)
 				{
 					mat.SetColor("_OutlineColor", Color.green);
+				}
+				foreach (Material mat in mainCamera.GetComponent<DrawLines>().glowMaterialsBlue)
+				{
+					mat.SetColor("_OutlineColor", Color.cyan);
 				} 
 			}
 
@@ -53,6 +58,12 @@ public class InfoBubble : MonoBehaviour {
 
 				//set drawlines
 				mainCamera.GetComponent<DrawLines>().secondPoint = this.transform;
+
+				//pause anim
+				sliderHandle.GetComponent<ModelRotationSlider>().MouseUp();
+
+				// if tv, change the screen image
+
 			}
 			else{
 				//remove linerenderer and draw components
@@ -60,7 +71,7 @@ public class InfoBubble : MonoBehaviour {
 				mainCamera.GetComponent<DrawLines>().enabled = false;
 
 				//glow green
-				objMaterial.SetColor("_OutlineColor", Color.green);
+				objMaterial.SetColor("_OutlineColor", Color.cyan);
 
 			}
 		}

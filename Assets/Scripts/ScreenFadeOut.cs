@@ -6,6 +6,7 @@ public class ScreenFadeOut : MonoBehaviour {
 
 	public GameObject screenGO;
 	private Image screenImg;
+	public bool moviePlaying = true;
 
 	// Use this for initialization
 	void Start () {
@@ -20,6 +21,7 @@ public class ScreenFadeOut : MonoBehaviour {
 
 		screenImg.CrossFadeAlpha(0, t, false);
 		yield return new WaitForSeconds(t);
+		moviePlaying = false;
 		screenGO.SetActive(false);
 	}
 

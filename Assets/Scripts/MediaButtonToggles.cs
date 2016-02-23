@@ -60,20 +60,13 @@ public class MediaButtonToggles : MonoBehaviour {
 		{
 			//just paused the anim, show pause button and enable button
 			this.GetComponent<Image>().sprite = pauseImg;
-			this.GetComponent<Button>().enabled = true;
-
-
-			/*if(this.GetComponentInChildren<Text>())
-				this.GetComponentInChildren<Text>.color = Color.gray;*/
+			//this.GetComponent<Button>().enabled = true;
 		}
 		else
 		{
 			//just re-start animation, show play buttona nd disable button 
 			this.GetComponent<Image>().sprite = playImg;
-			this.GetComponent<Button>().enabled = false;
-
-			/*if(this.GetComponentInChildren<Text>())
-				this.GetComponentInChildren<Text>.color = Color.white;*/
+			//this.GetComponent<Button>().enabled = false;
 		}
 	}
 }

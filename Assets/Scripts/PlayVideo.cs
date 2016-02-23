@@ -9,13 +9,16 @@ public class PlayVideo : MonoBehaviour {
 	public GameObject movieObj;
 	public MovieTexture movie;
 	public GameObject movieContainer;
+	private GameObject canvas;
 
 	public bool autoPlay = false;
 
 	void Start (){
+		canvas = GameObject.Find ("Canvas");
+
 		if(autoPlay == true)
 		{
-			PlayM();
+			PlayMSimple();
 		}
 	}
 
@@ -35,11 +38,19 @@ public class PlayVideo : MonoBehaviour {
 		entry.eventID = EventTriggerType.PointerClick;
 		entry.callback.AddListener( (eventData) => { StopMovie(movieObjI); } );
 		trigger.delegates.Add(entry);
+
+		canvas.GetComponent<ScreenFadeOut>().moviePlaying = true;
+	}
+
+	private void PlayMSimple(){
+		movie.Play ();
 	}
 
 	public void StopMovie(GameObject obj){
 		movie.Stop ();
 		DestroyObject(obj);
 		movieContainer.SetActive(false);
+
+		canvas.GetComponent<ScreenFadeOut>().moviePlaying = false;
 	}
 }

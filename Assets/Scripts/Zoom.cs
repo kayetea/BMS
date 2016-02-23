@@ -18,11 +18,12 @@ public class Zoom : MonoBehaviour {
 	private Camera mainCamera;
 	private float camMoveDuration;
 
-	public Vector3 camPos; //assign each time script is applied
+	private Vector3 camPos; 
 	public Transform camTrans; //assign for each
 	public string uiName; //assign in editor
 
 	private GameObject animControlsUI; //anim UI
+	private GameObject canvas;
 	private GameObject canvasTemp;
 	private Animator gurneyAnim;
 
@@ -31,10 +32,12 @@ public class Zoom : MonoBehaviour {
 		objMaterial.SetColor("_OutlineColor", Color.green);
 
 		//establish variables
+		canvas = GameObject.Find ("Canvas");
 		mainCamera = GameObject.Find ("Main Camera").GetComponent<Camera>();
 		animControlsUI = GameObject.Find("AnimationPanel");
 		canvasTemp = GameObject.Find ("Canvas/Temp");
 		gurneyAnim = GameObject.Find("Cylinder/baramed_select").GetComponent<Animator>();
+		camPos = camTrans.position;
 	}
 	
 	//~~~~ ACTIVATES WHEN BOX COLLIDER CLICKED ~~~~
@@ -42,9 +45,17 @@ public class Zoom : MonoBehaviour {
 
 		//~~~~ CLICKED FIRST TIME ~~~~
 			//make sure that you're not already zoomed in
-		if(!GameObject.Find ("zoomCamera(Clone)")){
+		if(!GameObject.Find ("zoomCamera(Clone)") && !canvas.GetComponent<ScreenFadeOut>().moviePlaying){
+
 			//neutralize glow color
-			objMaterial.SetColor("_OutlineColor", Color.white);
+			foreach (Material mat in mainCamera.GetComponent<DrawLines>().glowMaterialsGreen)
+			{
+				mat.SetColor("_OutlineColor", Color.white);
+			}
+			foreach (Material mat in mainCamera.GetComponent<DrawLines>().glowMaterialsBlue)
+			{
+				mat.SetColor("_OutlineColor", Color.white);
+			}
 
 			//load new camera
 			Instantiate(Resources.Load ("zoomCamera") as GameObject);
@@ -123,6 +134,11 @@ public class Zoom : MonoBehaviour {
 			gurneyAnim.Play("gurneyAnim", -1, .4f);
 			gurneyAnim.speed = 0;
 		}
+		else if (uiName == "ComputerUI")
+		{
+			gurneyAnim.Play("gurneyAnim", -1, .1f);
+			gurneyAnim.speed = 0;
+		}
 	}
 	
 	//~~~~ ZOOM OUT TO MAIN SCREEN ~~~~
@@ -132,7 +148,6 @@ public class Zoom : MonoBehaviour {
 		GameObject zoomCamClone = GameObject.Find ("zoomCamera(Clone)");
 		zoomCamClone.GetComponent<LerpCamera>().StartLerp(2, mainCamera.transform.position, camPos, mainCamera.transform.rotation, camTrans.rotation);
 		StartCoroutine(ResetMainScreen(zoomCamClone, 2));
-
 	}
 
 	//~~~~ HIDE SPECIAL UI AND RESET MAIN SCREEN  ~~~~
@@ -167,12 +182,15 @@ public class Zoom : MonoBehaviour {
 	
 		DestroyObject(camera);
 
-		//CHANGE ALL GLOW GREEN
-		foreach (Material mat in mainCamera.GetComponent<DrawLines>().glowMaterials)
+		//CHANGE ALL GLOW GREEN/Blue
+		foreach (Material mat in mainCamera.GetComponent<DrawLines>().glowMaterialsGreen)
 		{
 			mat.SetColor("_OutlineColor", Color.green);
 		}
-
+		foreach (Material mat in mainCamera.GetComponent<DrawLines>().glowMaterialsBlue)
+		{
+			mat.SetColor("_OutlineColor", Color.cyan);
+		}
 	}
 
 	//~~~~ REMOVE TEMP UI COMPONENTS ~~~~
@@ -185,10 +203,9 @@ public class Zoom : MonoBehaviour {
 			DestroyObject(canvasTemp.transform.GetChild(temp-1).gameObject);
 		}
 
-		//remove draw lines
+		//remove draw lines from screen if they're there
 		mainCamera.GetComponent<LineRenderer>().enabled = false;
 		mainCamera.GetComponent<DrawLines>().enabled = false;
-
 	}
 
 }

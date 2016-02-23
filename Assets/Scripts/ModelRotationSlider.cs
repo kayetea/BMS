@@ -8,7 +8,8 @@ public class ModelRotationSlider : MonoBehaviour {
 	public GameObject animatedModel;
 	private Animator anim;
 	public bool mouseDown = false;
-	public Button rotationBtn;
+	public GameObject handle;
+	private float sliderValue;
 
 	// Use this for initialization
 	void Start () {
@@ -31,16 +32,29 @@ public class ModelRotationSlider : MonoBehaviour {
 
 	public void MouseDown(){
 		mouseDown = true;
+		sliderValue = mainSlider.value;
 	}
 
 	public void MouseUp(){
 		mouseDown = false;
 
-		//freeze anim
-		anim.speed = 0;
-
-		//change button & activate button
-		rotationBtn.GetComponent<MediaButtonToggles>().ToggleAnimBtnImg(anim);
+		//check if slider has been dragged
+		if (Mathf.Abs(sliderValue - mainSlider.value) > .005f)
+		{
+			//freeze anim
+			anim.speed = 0;
+			
+			//change button & activate button
+			handle.GetComponent<MediaButtonToggles>().ToggleAnimBtnImg(anim);
+		}
+		else
+		{
+			//freeze anim
+			anim.speed = 1;
+			
+			//change button & activate button
+			handle.GetComponent<MediaButtonToggles>().ToggleAnimBtnImg(anim);
+		}
 
 	}
 }
